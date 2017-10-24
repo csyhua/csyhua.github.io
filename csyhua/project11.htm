@@ -1,0 +1,413 @@
+﻿<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>NSFC Project</title>
+</head>
+
+<body>
+
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">　</p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">&quot;Research on Correlation-Aware 
+Organization Model and Key Technology in Hybrid Storage Systems&quot;, <b>National 
+Natural Science Foundation of China (NSFC)</b>, No. 61173043, 2012- 2015.</font></p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">　</p>
+<p align="justify" style="font-weight: 700; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; font-size: 1.2em; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="5">Abstract:</font></p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">There exist two main problems of storage 
+organization models in current large-scale file systems, i.e., massive data and 
+heterogeneous devices. The scalability and performance optimization become 
+challenging. In order to address these two problems, this project proposes 
+correlation-aware based model in hybrid storage organization. The basic idea is 
+to use locality-sensitive hashing computation to obtain fast and accurate 
+aggregation for correlated data. Many file operations (e.g., read/write/update) 
+can be executed in sequence. The performance of SSD can be significantly 
+improved with the decrements of erasing times. This can also improve the 
+interface between systems and users to facilitate the expression from users' 
+requests to system operations. The correlation-aware design allows high-level 
+applications to know the data layout and access patterns, to further improve the 
+storage efficiency for massive data and the utilization of heterogeneous 
+devices. The aggregation based multi-version update method can improve system 
+reliability. The research work has some previous basis and can be implemented 
+and tested in massive storage environments.</font></p>
+<p>　</p>
+<p align="justify" style="font-size: 1.2em; font-weight: 700; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="5">Publications:</font></p>
+<p align="justify" style="font-weight: 700; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Journal:</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-approximate2015.pdf">Real-time 
+Semantic Search using Approximate Methodology for Large-scale Storage Systems</a>&quot;, <i>Accepted and to appear in</i> <i><b>IEEE Transactions 
+on Parallel and Distributed Systems (TPDS).</b></i></font></p>
+<p align="justify"><font face="Times New Roman" size="4">
+<a href="http://fumin.hustbackup.cn/?page_id=1065">Min Fu</a>, Dan Feng, Yu 
+Hua, <a href="http://www.people.vcu.edu/~xhe2/">Xubin He</a>, Zuoning Chen, 
+Jingning Liu, <a href="http://wxia.hustbackup.cn/">Wen Xia</a>, Fangting Huang, Qing Liu, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-deduplication2015.pdf">Reducing Fragmentation for 
+In-line Deduplication Backup Storage via Exploiting Backup History and Cache 
+Knowledge</a>&quot;, <i>Accepted and to appear in</i> <i><b>IEEE Transactions 
+on Parallel and Distributed Systems (TPDS).</b></i></font></p>
+<p align="justify"><font face="Times New Roman" size="4">Wen Xia, Hong Jiang, 
+Dan Feng, Lei Tian, &quot;DARE: A Deduplication-Aware Resemblance Detection and 
+Elimination Scheme for Data Reduction with Low Overheads&quot;, <i>Accepted and to 
+appear in <b>IEEE Transactions on Computers (TC)</b>.</i></font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://www4.comp.polyu.edu.hk/~csbxiao/">Bin Xiao</a>,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-hybrid2014.pdf">The 
+Design and Implementations of Locality-aware Approximate Queries in Hybrid 
+Storage Systems</a>&quot;, <b>IEEE Transactions 
+on Parallel and Distributed Systems (TPDS)</b>, Vol. 26, No.11, November 2015, 
+pages: 3194-3207.
+<a href="http://www.wnlo.cn/article.php?catPath=0,1,12,479,481&catID=482&articleID=5024">
+WNLO News Report</a>.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Jinjun Liu, Dan Feng, 
+Yu Hua, Bin Peng, Zhenhua Nie, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-provenance2014.pdf">Using 
+Provenance to Efficiently Improve Metadata Searching Performance in Storage 
+Systems</a>&quot;, <b><i>Future Generation Computer Systems (FGCS), </i></b>
+Volume 50, September 2015, Pages 99–110.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">
+<a href="http://wxia.hustbackup.cn/">Wen Xia</a>, 
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, Dan Feng, Yu Hua, 
+&quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-dedup2014.pdf">Similarity and Locality based Indexing for High Performance Data 
+Deduplication</a>&quot;, <b><i>IEEE Transactions on Computers (TC)</i></b>, 
+Vol.64, No.4, April 2015, pages: 1162-1176.</font></p>
+<p align="justify" style="margin-bottom: 0.5em">
+<font face="Times New Roman" size="4">Mao Wei, Liu Jingning, Tong Wei, Feng Dan, 
+Li Zheng, Zhou Wen, Zhang Shuangwu, &quot;A Review of Storage Technology Research 
+based on Phase Change Memory&quot;, <i>&nbsp;Chinese Journal of 
+Computer (</i></font><b><font size="4" face="楷体_GB2312">计算机学报</font></b><font face="Times New Roman" size="4"><i>), </i>
+Vol.18, No.5, 2015, pages: 944-960. (in Chinese)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+<a href="http://www.cs.mcgill.ca/~wenbohe/">Wenbo He</a>, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-hosa2013.pdf">Design and 
+Implementation of Holistic Scheduling and Efficient Storage for FlexRay</a>&quot;, 
+<i> <b> 
+IEEE 
+Transactions on Parallel and Distributed Systems (TPDS)</b></i>, Vol.25, No.10, 
+October 2014, pages: 2529-2539. </font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, 
+&quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-antelope2013.pdf">ANTELOPE: A Semantic-aware Data Cube Scheme for Cloud Data Center Networks</a>&quot;, 
+<i><b> IEEE Transactions on Computers (TC)</b></i>, Vol.63, No.9, September 
+2014, pages: 2146-2159.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, 
+<a href="http://www.eece.maine.edu/~zhu/">Yifeng Zhu</a>, 
+Dan Feng, <a href="http://cse.unl.edu/~lxu/">Lei Xu</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-sane2013.pdf">SANE: 
+Semantic-Aware Namespace in Ultra-large-scale File Systems</a>&quot;, 
+<i> <b> 
+IEEE 
+Transactions on Parallel and Distributed Systems (TPDS)</b></i>, Vol.25, No.5, 
+May 2014, pages:1328-1338. </font></p>
+<p align="justify"><font face="Times New Roman" size="4">Nan Zhu,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+<a href="http://research.microsoft.com/en-us/people/liuj/">Jie Liu</a>, Yu Hua, 
+&quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-power2014.pdf">Towards A 
+Cost-Efficient MapReduce: Mitigating Power Peaks for Hadoop Clusters</a>&quot;, 
+<i>
+<b>Tsinghua Science and Technology (TST)</b></i>, Volume 19, Issue 1, Feb. 2014, 
+pages: 24-32. <b>(Selected as the Spotlight Paper and Best Paper Award)</b></font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-mercury2013.pdf">Data 
+Similarity-aware Computation Infrastructure for the Cloud</a>&quot;,<i> <b> IEEE Transactions on Computers (TC),</b></i>  
+Vol.63, No.1, January 2014, pages: 3-16. </font></p>
+<p align="justify"><font face="Times New Roman" size="4">Dan He, Fang Wang, Hong 
+Jiang, Dan Feng, JingNing Liu, Wei Tong, Zheng Zhang, “Improving Hybrid FTL by 
+Fully Exploiting Internal SSD Parallelism with Virtual Blocks,” <b><i>ACM Transactions on Architecture and Code Optimization (TACO)</i></b>, 
+Vol. 11, No. 4, December 2014, pages: 43-62.</font></p>
+<p align="justify" style="font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Yulai Xie, Dan Feng, Zhipeng Tan, and 
+Junzhe Zhou, “Design and Evaluation of a Provenance-Based Rebuild Framework”, <i>
+<b>IEEE Transactions on Magnetics</b></i>, Vol. 49, No. 6, June 2013, pages: 
+2805-2811.</font></p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Yu Hua,<span class="Apple-converted-space">&nbsp;</span><a href="http://www.cs.mcgill.ca/~xueliu/">Xue 
+Liu</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-afdx2012.pdf">Scheduling 
+Heterogeneous Flows with Delay-aware Deduplication for Avionics Applications</a>&quot;,<span class="Apple-converted-space">&nbsp;</span><i><b>IEEE 
+Transactions on Parallel and Distributed Systems (TPDS),<span class="Apple-converted-space">&nbsp;</span></b></i>Vol. 
+23, No. 9, September 2012, pages: 1790-1802.</font></p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Yu Hua,<span class="Apple-converted-space">&nbsp;</span><a href="http://www4.comp.polyu.edu.hk/~csbxiao/">Bin 
+Xiao</a>,<span class="Apple-converted-space">&nbsp;</span><a href="http://cnl-ece.nus.edu.sg/elebv/">Bharadwaj 
+Veeravalli</a>, Dan Feng. &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-tc2012.pdf">Locality-Sensitive 
+Bloom Filter for Approximate Membership Query</a>&quot;,<span class="Apple-converted-space">&nbsp;</span><i><b>IEEE 
+Transactions on Computers (TC),<span class="Apple-converted-space">&nbsp;</span></b></i>Vol. 
+61, No. 6, June 2012, pages: 817-830. (Download<span class="Apple-converted-space">&nbsp;</span><a href="http://cs.hust.edu.cn/stlab/csyhua/lsbfcode.zip">Source 
+Codes</a><span class="Apple-converted-space">&nbsp;</span>and<span class="Apple-converted-space">&nbsp;</span><a href="http://cs.hust.edu.cn/stlab/csyhua/lsbfmanual.pdf">Manual</a>)</font></p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Yu Hua,<span class="Apple-converted-space">&nbsp;</span><a href="http://cse.unl.edu/~jiang/">Hong 
+Jiang</a>,<span class="Apple-converted-space">&nbsp;</span><a href="http://www.eece.maine.edu/~zhu/">Yifeng 
+Zhu</a>, Dan Feng,<span class="Apple-converted-space">&nbsp;</span><a href="http://cse.unl.edu/~tian/">Lei 
+Tian</a>. &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-tpds2012.pdf">Semantic-Aware 
+Metadata Organization Paradigm in Next-Generation File Systems</a>&quot;,<span class="Apple-converted-space">&nbsp;</span><b><i>IEEE 
+Transactions on Parallel and Distributed Systems (TPDS),<span class="Apple-converted-space">&nbsp;</span></i></b>Vol.23, 
+No. 2, February 2012, pages: 337-344.</font></p>
+<p align="justify" style="margin-bottom: 0.5em">
+　</p>
+<p align="justify" style="margin-bottom: 0.5em">　</p>
+<p align="justify" style="font-weight: 700; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Conference:</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Qing Liu, Dan Feng, 
+Hong Jiang, Yuchong Hu, Tianfeng Jiao, &quot;Z codes: General Systematic Erasure 
+Codes with Optimal Repair Bandwidth under Minimum Storage for Distributed 
+Storage Systems&quot;, <i>Proceedings of the 34th Symposium 
+on Reliable Distributed Systems (<b>SRDS</b>), 2</i>015.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yunxiang Wu, Fang Wang, 
+Yu Hua, Dan Feng, Yuchong Hu, Jingning Liu, Wei Tong, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-FastFCoE2015.pdf">FastFCoE: An Efficient and Scale-up Multi-core Framework for FCoE-based SAN Storage 
+Systems</a>&quot;, <i>Proceedings of the 44th 
+International Conference on Parallel Processing (<b>ICPP</b>),</i> 2015, Pages: 
+330-339.
+(Acceptance rate: 99/305=32.5%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">
+<a href="http://wxia.hustbackup.cn/">Wen Xia</a>, Chunguang Li,
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, Dan Feng, Yu Hua, Leihua 
+Qin, Yucheng Zhang, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-hotstorage2015.pdf">Edelta: A Word-Enlarging Based Fast Delta Compression 
+Approach</a>&quot;, <i>Proceedings of&nbsp; the 7th USENIX 
+Workshop on Hot Topics in Storage and File Systems (<b>HotStorage</b>)</i>, 2015. 
+(Acceptance rate: 17/55=30.9%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-IWQOS2015.pdf">Smart 
+Hashing based Queries in the Cloud</a>&quot;, Proceedings of IEEE/ACM International Symposium on Quality of Service (<b>IWQoS</b>), 
+2015, pages: 1-10. (Acceptance rate: 20/89=22.5% as Full Paper, in conjunction with ACM FCRC 2015)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Zheng 
+Li, Shuangwu Zhang, Jingning Liu, Wei Tong, Yu Hua, Dan Feng, Chenye Yu, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/HUA-nvmsa2015.pdf">A 
+Software-Defined Fusion Storage System for PCM and NAND Flash</a>&quot;, <i>
+Proceedings of&nbsp; the 4th IEEE Non-Volatile Memory System and Applications 
+Symposium (<b>NVMSA</b>), </i>2015</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Qing Liu, Dan Feng, 
+Zhan Shi, Min Fu, &quot;General Functional Regenerating Codes with Uncoded Repair for 
+Distributed Storage System&quot;, <i>Proceedings of the 15th IEEE/ACM International 
+Symposium on Cluster, Cloud and Grid Computing (<b>CCGrid</b>),</i> 2015.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yuanyuan Sun, Yu Hua, 
+Dan Feng, Ling Yang, Pengfei Zuo, Shunde Cao, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-MSST2015.pdf">MinCounter: 
+An Efficient Cuckoo Hashing Scheme for Cloud Storage Systems</a>&quot;, <i>Proceedings of the 31st International Conference on Massive 
+Storage Systems and Technology (<b>MSST</b>)</i>, 2015. (Acceptance rate: 23/100=23%)</font></p>
+<p align="justify">
+<font face="Times New Roman" size="4">Yukun Zhou, Dan Feng, Wen Xia, Min Fu, 
+Fangting Huang, Yucheng Zhang, and Chunguang Li. &quot;<a href="http://storageconference.us/2015/Papers/24.Zhou.pdf">SecDep: A User-Aware Efficient 
+Fine-Grained Secure Deduplication Scheme with Multi-Level Key Management</a>&quot;.
+<i>
+Proceedings of the 31st International Conference on Massive Storage 
+Systems and Technology (<b>MSST</b>), </i>June, 2015. (Acceptance rate: 
+23/100=23%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">
+<a href="http://fumin.hustbackup.cn/?page_id=1065">Min Fu</a>, Dan Feng, Yu Hua, <a href="http://www.people.vcu.edu/~xhe2/">
+Xubin He</a>, Zuoning Chen, 
+<a href="http://wxia.hustbackup.cn/">Wen Xia</a>, Yucheng Zhang, Yujuan Tan, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-fast2015.pdf">Design 
+Tradeoffs for Data Deduplication Performance in Backup Workloads</a>&quot;, <i>
+Proceedings of&nbsp; the 13th USENIX Conference on File and Storage Technologies 
+(<b>FAST</b>)</i>, February 2015, pages:331-344. (Acceptance rate: 28/130=21.5%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~wenbohe/">Wenbo He</a>, &nbsp;<a href="http://www.cs.mcgill.ca/~xueliu/">Xue 
+Liu</a>, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-INFOCOM2015.pdf">SmartEye: 
+Real-time and Efficient Cloud Image Sharing for Disaster Environments</a>&quot;, <i>
+Proceedings of the 34th IEEE International Conference on&nbsp; Computer 
+Communications (<b>INFOCOM</b>)</i>, 2015, pages: 1616-1624. (Acceptance rate: 
+316/1640=19%)</font></p>
+<p align="justify">
+<font face="Times New Roman" size="4">Yucheng Zhang, Hong Jiang, Dan Feng, Wen 
+Xia, Min Fu, Fangting Huang, Yukun Zhou. “AE: An Asymmetric Extremum Content 
+Defined Chunking Algorithm for Fast and Bandwidth-Efficient Data Deduplication”.
+<i>Proceedings of the 34th IEEE International Conference on&nbsp; Computer 
+Communications (<b>INFOCOM</b>)</i>, 2015, pages: 1337-1345. (Acceptance rate: 
+316/1640=19%)</font></p>
+<p align="justify">
+<font face="Times New Roman" size="4">Jinjun Liu, Dan Feng, Yu Hua, Bin Peng, 
+Pengfei Zuo, Yuanyuan Sun, &quot;P-index: An Efficient Searchable Metadata Indexing 
+Scheme based on Data Provenance in Cold Storage&quot;, <i>Proceedings of the 15th 
+International Conference on Algorithms and Architectures for Parallel Processing 
+(<b>ICA3PP</b>),</i> 2015.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-SC2014.pdf">FAST: 
+Near Real-time Searchable Data Analytics for the Cloud</a>&quot;,
+<i>Proceedings of the 
+International Conference for High Performance Computing, Networking, Storage and 
+Analysis <b> (SC)</b></i>, November 2014, Pages: 754-765. (Acceptance rate: 82/394=20.8%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Jinjun Liu, Dan Feng, 
+Yu Hua, Bin Peng, Pengfei Zuo, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-IPCCC2014.pdf">Application-aware Video-Sharing Services via 
+Provenance in Cloud Storage</a>&quot;, <i>Accepted and to appear in the Proceedings of 
+the 33rd IEEE International Performance Computing and Communications Conference 
+(<b>IPCCC</b>), December 2014.</i></font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-smartcomp2014.pdf">A 
+Correlation-Aware Partial Materialization Scheme for Near Real-Time Automotive 
+Queries</a>&quot;, <i>Proceedings of 2014 International 
+Conference on Smart Computing (<b>SMARTCOMP</b>), November 2014, pages: 237-244. 
+</i></font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="https://sites.google.com/site/drleirao/">Lei Rao</a>,&nbsp;<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+Dan Feng, &quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/2014-coefficient.pdf">Cooperative and Efficient Real-time Scheduling for Automotive 
+Communications</a>&quot;,
+<i>Proceedings of the 34th International 
+Conference on Distributed Computing Systems <b>(ICDCS)</b></i>, 2014, 
+pages:134-143. 
+(Acceptance rate: 66/500=13%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Min Fu, Dan Feng, Yu 
+Hua, <a href="http://www.people.vcu.edu/~xhe2/">Xubin He</a>, Zuoning Chen, Wen Xia, Fangting 
+Huang, Qing Liu, &quot;<a href="https://www.usenix.org/system/files/conference/atc14/atc14-paper-fu_min.pdf">Accelerating Restore and Garbage Collection in 
+Deduplication-based Backup Systems via Exploiting Historical Information</a>&quot;,
+<i>Proceedings of USENIX Annual Technical Conference (<b>USENIX ATC</b>)</i>, 
+June 2014, pages: 181-192. (Acceptance rate: 36/241=14.9%).</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, Dan Feng, 
+&quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/2014-needle.pdf">Needle in A Haystack: Cost-Effective Data Analytics for Real-Time Cloud 
+Sharing</a>&quot;,
+<i>Proceedings of IEEE/ACM International Symposium 
+on Quality of Service (<b>IWQoS</b>), 2014, pages: 41-49. </i>(Acceptance rate: 23.8%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Qiuyu Li, Yu Hua,
+<a href="http://www.cs.mcgill.ca/~wenbohe/">Wenbo He</a>, Dan Feng, Zhenhua Nie, 
+Yuanyuan Sun, &quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/2014-necklace.pdf">Necklace: An Efficient Cuckoo Hashing Scheme for Cloud Storage 
+Services</a>&quot;,
+<i>Proceedings of IEEE/ACM International Symposium 
+on Quality of Service (<b>IWQoS</b>), 2014, pages: 50-55.</i></font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-neptune2014.pdf">Neptune: Efficient Remote Communication Services for Cloud Backups</a>&quot;,
+<i>Proceedings of the 33rd IEEE International Conference on&nbsp; 
+Computer Communications (<b>INFOCOM</b>)</i>, 2014, pages: 844-852. (Acceptance rate: 19.4%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Jing Zhang, Xiangke 
+Liao, Shanshan Li, Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+Bin Lin, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-code2014.pdf">Aggrecode: Constructing Route Intersection for Data Reconstruction in 
+Erasure Coded Storage Systems</a>&quot;, <i>Proceedings of the 33rd IEEE International Conference on&nbsp; 
+Computer Communications (<b>INFOCOM</b>)</i>, 2014, pages: 2139-2147. (Acceptance rate: 19.4%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Rongyu Lai, Yu Hua, Dan 
+Feng, Wen Xia, Min Fu, Yifan Yang, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/ica3pp2014-dedup.pdf">A Near-exact Defragmentation Scheme to 
+Improve Restore Performance for Cloud Backup Systems</a>&quot;, <i>Proceedings of the 14th International Conference on Algorithms and 
+Architectures for Parallel Processing (<b>ICA3PP</b>)</i>, LNCS 8630, 2014, 
+pages 457-471. (Acceptance rate: 70/285=24.5%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Zhenhua Nie, Yu Hua, 
+Dan Feng, Qiuyu Li, Yuanyuan Sun, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/ica3pp2014-video.pdf">Efficient Storage Support for Real-time 
+Near-duplicate Video Retrieval</a>&quot;, <i>Proceedings of 
+the 14th International Conference on Algorithms and Architectures for Parallel 
+Processing (<b>ICA3PP</b>)</i>, LNCS 8631, 2014, pages: 312-324. (Acceptance 
+rate: 70/285=24.5%)</font></p>
+<p align="justify" style="font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Wen Xia, Hong Jiang, Dan Feng, and Lei 
+Tian, &quot;Combining Deduplication and Delta Compression to Achieve Low-Overhead 
+Data Reduction on Backup Datasets&quot;, <i>Proceedings of IEEE Data Compression 
+Conference (<b>IEEE DCC</b>)</i>, Snowbird, Utah, USA, March 26-28, 2014.</font></p>
+<p align="justify" style="font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Wen Xia, Hong Jiang, Dan Feng, Lei Tian, 
+Min Fu, and Yukun Zhou, &quot;Ddelta: A Deduplication-Inspired Fast Delta Compression 
+Approach&quot;, <i>Proceedings of the 32nd International Symposium on Computer 
+Performance, Modeling, Measurements and Evaluation (<b>IFIP Performance</b>)</i>, 
+Italy, October 7-9, 2014.</font></p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Yu Hua,<span class="Apple-converted-space">&nbsp;</span><a href="http://www4.comp.polyu.edu.hk/~csbxiao/">Bin 
+Xiao</a>,<span class="Apple-converted-space">&nbsp;</span><a href="http://www.cs.mcgill.ca/~xueliu/">Xue 
+Liu</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-infocom2013.pdf">NEST: 
+Locality-aware Approximate Query Service for Cloud Computing</a>&quot;,<span class="Apple-converted-space">&nbsp;</span><i>Proceedings 
+of the 32nd IEEE International Conference on&nbsp; Computer Communications (<b>INFOCOM</b>)</i>, 
+April 2013, pages: 1327-1335. (Acceptance rate: 17%, Download&nbsp;<span class="Apple-converted-space">&nbsp;</span><a href="http://cs.hust.edu.cn/stlab/csyhua/nestcode.zip">Source 
+Codes</a><span class="Apple-converted-space">&nbsp;</span>and<span class="Apple-converted-space">&nbsp;</span><a href="http://cs.hust.edu.cn/stlab/csyhua/nestmanual.pdf">Manual</a>)</font></p>
+<p align="justify" style="font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Sai Huang, Qingsong Wei , Jianxi Chen, 
+Cheng Chen, Dan Feng, &quot;Improving Flash-based Disk Cache with Lazy Adaptive 
+Replacement&quot;, <i>Proceedings of the IEEE International Conference on Massive 
+Storage Systems and Technology (<b>MSST</b>)</i>, 2013.</font></p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Yu Hua,<span class="Apple-converted-space">&nbsp;</span><a href="http://www.cs.mcgill.ca/~xueliu/">Xue 
+Liu</a>, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-mascots2012.pdf">MERCURY: 
+A Scalable and Similarity-aware Scheme in Multi-level Cache Hierarchy</a>&quot;,<span class="Apple-converted-space">&nbsp;</span><i>Proceedings 
+of the 20th IEEE International Symposium on Modeling, Analysis and Simulation of 
+Computer and Telecommunication Systems (<b>MASCOTS</b>)</i>, August 2012, pages: 
+371-378.</font></p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Yu Hua,<span class="Apple-converted-space">&nbsp;</span><a href="http://www.cs.mcgill.ca/~xueliu/">Xue 
+Liu</a>,<span class="Apple-converted-space">&nbsp;</span><a href="http://www.cs.mcgill.ca/~wenbohe/">Wenbo 
+He</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-infocom2012.pdf">HOSA: 
+Holistic Scheduling and Analysis for Scalable Fault-tolerant FlexRay Design</a>&quot;,<span class="Apple-converted-space">&nbsp;</span><i>Proceedings 
+of the 31st IEEE International Conference on&nbsp; Computer Communications (<b>INFOCOM</b>)</i>, 
+March 2012, pages: 1233-1241. (Acceptance rate: 18%)</font></p>
+<p align="justify" style="font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Zhichao Yan, Hong Jiang, Dan Feng, Lei 
+Tian and Yujuan Tan, &quot;SUV: A Novel Single-Update Version-Management Scheme for 
+Hardware Transactional Memory Systems&quot;, <i>Proceedings of the IEEE 26th 
+International Parallel and Distributed Processing Symposium (<b>IPDPS</b>)</i>, 
+2012.</font></p>
+<p align="justify" style="font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Yulai Xie, Dan Feng, Zhipeng Tan, Lei 
+Chen, Kiran-KumarMuniswamy-Reddy, Yan Li and Darrell D. E. Long, &quot;A Hybrid 
+Approach for Efficient Provenance Storage&quot;, <i>Proceedings of the 21st ACM 
+International Conference on Information and Knowledge Management (<b>CIKM</b>)</i>, 
+2012.</font></p>
+<p align="justify" style="font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Wen Xia, Hong Jiang, Dan Feng, Lei Tian, 
+Min Fu, Zhongtao Wang, &quot;P-Dedupe: Exploiting Parallelism in Data Deduplication 
+System&quot;, <i>Proceedings of the IEEE Seventh International Conference on 
+Networking, Architecture, and Storage (NAS)</i>, 2012.</font></p>
+<p align="justify" style="font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">Yi Qin, Dan Feng, Jingning Liu, Wei Tong, 
+Yang Hu, Zhiming Zhu, &quot;A Parity Scheme to Enhance Reliability for SSDs&quot;, <i>
+Proceedings of the IEEE Seventh International Conference on Networking, 
+Architecture and Storage (NAS)</i>, 2012.</font></p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">　</p>
+<p style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<b><font size="5" face="Times New Roman">Open-source Software</font></b></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/syy804123097/LSBF">LSBF</a></b> 
+(Locality-Sensitive Bloom Filter) 
+in GitHub (Download <a href="http://cs.hust.edu.cn/stlab/csyhua/hua-tc2012.pdf">Paper</a>,
+<a href="http://cs.hust.edu.cn/stlab/csyhua/lsbfcode.zip">Source Codes</a>&nbsp;and&nbsp;<a href="http://cs.hust.edu.cn/stlab/csyhua/lsbfmanual.pdf">Manual</a>).</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/syy804123097/NEST">NEST</a></b>: 
+in GitHub&nbsp;(Download&nbsp;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-infocom2013.pdf">Paper</a>,
+<a href="http://cs.hust.edu.cn/stlab/csyhua/nestcode.zip">Source Codes</a>,&nbsp;<a href="http://cs.hust.edu.cn/stlab/csyhua/nestmanual.pdf">Manual</a>&nbsp;and&nbsp;<a href="http://cs.hust.edu.cn/stlab/csyhua/TraceData.pdf">TraceData</a>).</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/Pfzuo/E-STORE">E-STORE</a></b>: in GitHub. E-STORE (<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-fast2015poster.pdf">FAST 
+2015 Poster</a>) offers near-deduplication for image sharing based on the energy 
+availability in Smartphone.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/syy804123097/MinCounter">MinCounter</a></b>: in 
+GitHub. MinCounter is the proposed data structure in the
+<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-MSST2015.pdf">MSST 2015 Paper</a>.</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0em; padding: 0px">
+　</p>
+<p style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: auto; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: auto; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<b><font size="5" face="Times New Roman">Patent and Software Copyright</font></b></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Energy-aware 
+real-time image sharing in disaster environments, 2015 (Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Smart 
+In-network Redundancy Identification for Online Multimedia Applications, 2015 
+(Filed, Software Copyright)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">In-network 
+deduplication scheme in software-defined networks, 2015 (Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+Provenance-aware video sharing services in cloud storage systems, 2014 (Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A 
+fragmentation elimination scheme based on historical information, 2014 (Filed)&nbsp;
+</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A data 
+recovery approach in cloud backups, 2014&nbsp; (Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A provenance 
+based metadata query scheme in storage systems, 2013 (Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+Near-duplicate video detection scheme in large-scale storage systems, 2013 
+(Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A write 
+sequence analysis in internal SSD, 2013 (Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">......</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+Correlation-aware multi-dimensional metadata management systems, 2015 (Granted)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+Cost-efficient smartphone-based image sharing and near-deduplication services, 
+July 2015 (Granted, Software Copyright)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A data 
+deduplication scheme by exploiting similarity and locality, August 2012 (Granted)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A computer 
+management method, May 2012 (Granted)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Data 
+classification management software, October 2011 (Granted, Software Copyright)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">An improved 
+method for parallel streaming media servers, December 2010 (Granted)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Importance 
+evaluation method of files, April 2010 (Granted)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">......</font></p>
+
+</body>
+
+</html>

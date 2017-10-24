@@ -1,0 +1,1267 @@
+﻿<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Yu Hua</title>
+<style>
+<!--
+  * html .wrapper {
+    height: 0.1%;
+  }
+
+    p {font-size: 1em; font-weight: normal; }
+    p {margin: 0; padding: 0;}
+    p { font-size: 1.2em; }
+    p { margin: 0 0 1em; }
+
+  #g_description p {
+    margin: 0;
+  }
+    #header p { margin: 0; }
+    div#g_description p { font-size: 1em; }
+-->
+</style>
+</head>
+
+<body>
+
+<p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<font face="Times New Roman" size="4">
+<img border="0" src="./hua.JPG" width="323" height="310"></font></span></p>
+<p><b><font face="Times New Roman" size="6">Yu Hua</font><font face="Times New Roman" size="4">&nbsp;&nbsp;&nbsp;&nbsp; </font></b></p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+<font face="Times New Roman" size="4">Associate Professor, Ph.D Supervisor<br>
+<a href="http://cs.hust.edu.cn/">School of Computer Science and Technology</a><br>
+<a href="http://www.wnlo.cn/">Wuhan National Laboratory for Optoelectronics</a><br>
+<a href="http://www.hust.edu.cn/">Huazhong University of Science and Technology</a><br>
+Wuhan, China</font></p>
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+<font face="Times New Roman" size="4">E-mail: csyhua (at) hust.edu.cn<br>
+　</font></p>
+</span>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; ">
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+　</p>
+</span>
+<p style="margin-bottom: 0.5em"><b><font face="Times New Roman" size="5">Brief 
+Biography</font></b><font face="Times New Roman" size="4"><br>
+　</font></p>
+<p align="justify" style="margin-bottom: 0.5em"><font face="Times New Roman" size="4">Dr.Yu Hua 
+was Postdoc Research Associate in <a href="http://www.mcgill.ca/">McGill 
+University</a> (worked briefly) advised by Prof.<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a> 
+(<a href="http://cacsaic.org/awards_2014">Canadian CACS/AIC Outstanding Young 
+Computer Science Researcher Awards</a>) and Postdoc Research Fellow in
+<a href="http://www.unl.edu/">University of Nebraska-Lincoln</a>, co-advised by Prof.<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a> (IEEE 
+Fellow, NSF Program Director in CISE/CCF) and Prof.<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>, 
+in 2010-2011. He was Research Assistant in The Hong Kong Polytechnic University, 
+advised by Prof.<a href="http://www4.comp.polyu.edu.hk/~csbxiao/">Bin Xiao</a>, 
+in 2006, and Intern Student in Bell Labs Research China, advised by Dr. Yong 
+Wang and Dr. Fang Liu, in 2003. He obtained his B.E and Ph.D degrees from <a href="http://www.whu.edu.cn">Wuhan University</a>, respectively in 2001 
+and 2005. He publishes 
+more than 60 papers in major journals and conferences, including IEEE 
+Transactions on Computers (TC), IEEE Transactions on Parallel and Distributed 
+Systems (TPDS), USENIX ATC, USENIX FAST, INFOCOM, 
+SC and ICDCS. He serves for multiple international conferences and journals, such 
+as INFOCOM, RTSS, ICDCS, ICPP, IWQoS. He 
+is a senior member 
+of <a href="http://www.ieee.org/index.html">IEEE</a> and <a href="http://www.ccf.org.cn/sites/ccf/">CCF</a>,
+and a member of <a href="http://www.acm.org/">
+ACM</a>, <a href="https://www.usenix.org/">USENIX</a>,&nbsp;
+<a href="http://www.yocsef.org.cn/sites/yocweb/">CCF YOCSEF</a>,
+<a href="http://www.chinasys.org">ChinaSys</a> and
+<a href="http://www.ccf.org.cn/edu/">CCF@U</a>.&nbsp;&nbsp; </font></p>
+<p align="justify" style="margin-bottom: 0.5em">　</p>
+<p align="justify" style="margin-bottom: 0.5em">
+<font face="Times New Roman" size="4">Our work (SmartStore) is 
+well-recognized as one of the First spatial indexes for metadata in 
+storage systems by the <a href="http://www.ssrc.ucsc.edu/news/85.html">Best 
+Short Paper</a> in <a href="http://www.systor.org/2013/">SYSTOR 2013</a> (in 
+cooperation with ACM, USENIX) and reported by<span class="Apple-converted-space">&nbsp;</span><a href="http://newsroom.unl.edu/announce/cse/1076/6182">CSE 
+Bits &amp; Bytes</a>. NEST<span class="Apple-converted-space"> and&nbsp;</span>SmartEye 
+are reported by <a href="http://www.wnlo.cn/article.php?catPath=0,1,12,423&catID=424&articleID=3621">WNLO 
+News (NEST)</a> and<span class="Apple-converted-space">&nbsp;</span><a href="http://www.wnlo.cn/article.php?catPath=0,1,12,479,481&catID=482&articleID=4776">WNLO 
+News (SmartEye)</a>. Our work in &quot;Correlation-aware 
+	Multi-dimensional Metadata Schemes in Storage Systems&quot; is approved as 
+Excellence by the Recognition Committee of Chinese Institute of 
+	Electronics, 
+	Jan. 2014. Our work receives the
+<a href="http://www.ccf.org.cn/sites/ccf/xhdtnry.jsp?contentId=2767423969112">Best Demo Award</a></font><a href="http://www.ccf.org.cn/sites/ccf/xhdtnry.jsp?contentId=2767423969112"><font face="Times New Roman" size="4">
+</font></a><font face="Times New Roman" size="4">in CCF CNCC (China National 
+Computer Congress), 2013. We release source codes in <a href="https://github.com">GitBub</a>, 
+including&nbsp;<a href="https://github.com/syy804123097/LSBF">LSBF</a>,&nbsp;<a href="https://github.com/syy804123097/NEST">NEST</a>,
+<a href="https://github.com/syy804123097/MinCounter">MinCounter</a>  
+and
+	<a href="https://github.com/Pfzuo/E-STORE">E-STORE</a>.</font></p>
+<p style="margin-bottom: 0.2em">　</p>
+<p style="margin-bottom: 0.5em" align="justify"><b>
+<font face="Times New Roman" size="4">
+<a href="http://scholar.google.com/citations?user=jjvTZT8AAAAJ">Google Scholar 
+Profile</a></font></b></p>
+<p style="margin-bottom: 0.2em">　</p>
+<p style="margin-bottom: 0.2em"><b><font face="Times New Roman" size="4">
+<a href="http://sites.google.com/site/csyhua/">Google Sites (homepage)</a></font></b></p>
+<p style="margin-bottom: 0.2em">　</p>
+<p style="margin-bottom: 0.2em"><b><font face="Times New Roman" size="5">News:</font></b></p>
+<ul>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I serve as the Guest Editor of Special 
+	Issue &quot;Green Communication&quot; in
+	<a href="http://www.jcn.or.kr/home/journal/">Journal of Communications and 
+	Networks</a>. Please consider to submit your work to this special issue. The 
+	submission deadline is Dec.1, 2015.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">Our paper receives the 2014 Best Paper 
+	Award in Tsinghua Science and Technology (TST). </font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I am serving as the Program Committee 
+	Member in the <a href="http://www.kkant.net/ICPP2016/index.html">45th Annual 
+	Conference 2016 International Conference on Parallel Processing (ICPP), 2016</a>.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I am invited to serve as the Panel 
+	Chair in &quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hpcplus.htm">HPC Plus</a>&quot; in conjunction with
+	<a href="http://hpcchina2015.csp.escience.cn/dct/page/1">CCF HPC China 2015</a>. 
+	&quot;HPC Plus&quot; reports the papers published in top-tier HPC-related conferences 
+	in 2014-2015.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I am invited to be the Publicity 
+	Co-Chair in the <a href="http://icpe16.ewi.tudelft.nl/">7th ACM/SPEC 
+	International Conference on Performance Engineering (ICPE), 2016</a>. Please 
+	consider to submit your work and attend ICPE 
+	2016.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I am invited to give a talk &quot;Real-time 
+	Storage Systems for Disaster Management&quot; in the 21st National Conference of 
+	Information Storage (NCIS, </font><font size="4" face="楷体_GB2312"><b>
+	全国信息存储技术学术年会</b></font><font face="Times New Roman" size="4">), 
+September 2015.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">Yuncheng Guo and Jie Wu received the Awards of Excellent B.E. Thesis in 
+	HUST (</font><b><font face="楷体_GB2312" size="4">华中</font></b><font size="4" face="楷体_GB2312"><b>科技大学优秀学士学位论文一等奖和三等奖</b></font><font face="Times New Roman" size="4">), 
+2015. Congratulations.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I am invited to serve as the Session 
+	Chair in&nbsp; <a href="http://www.ieee-iwqos.org/">IWQoS 2015</a> 
+	in conjunction with
+	<a href="http://fcrc.acm.org/">ACM FCRC 2015</a>.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">We release the source code of
+	<a href="https://github.com/syy804123097/MinCounter">MinCounter</a> in 
+	GitHub. MinCounter is the proposed data structure in the
+	<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-MSST2015.pdf">MSST 2015 
+	Paper</a>.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">Zhenhua Nie, Rongyu Lai and Linqian Wu 
+	are the Outstanding Graduate Students in HUST, 2015 </font><b>
+	<font size="4" face="楷体_GB2312">(华中科技大学2015届优秀毕业研究生)</font></b><font face="Times New Roman" size="4">. 
+	Congratulations.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">Our paper &quot;FastFCoE: An Efficient and 
+	Scale-up Multi-core Framework for FCoE-based SAN Storage Systems&quot; is 
+	accepted by <a href="http://icpp2015.tsinghua.edu.cn/">ICPP 2015</a>. 
+	Congratulations to Yunxiang.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I am invited to visit
+	<a href="http://www.lunduniversity.lu.se/">Lund University, Sweden</a>, July 
+	2015.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">Our paper &quot;MinCounter: An Efficient 
+	Cuckoo Hashing Scheme for Cloud Storage Systems&quot; is accepted by the 31st 
+	International Conference on Massive Storage Systems and Technology (<a href="http://storageconference.us/">MSST</a>), 
+	2015. Congratulations to Yuanyuan.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">We release the source code of
+	<a href="https://github.com/Pfzuo/E-STORE">E-STORE</a> in GitHub. E-STORE (<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-fast2015poster.pdf">FAST 
+	2015 Poster</a>) offers near-deduplication for image sharing based on the 
+	energy availability in Smartphone. Thank Pengfei and Zhenhua.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">Our paper &quot;Edelta: A Word-Enlarging 
+	Based Fast Delta Compression Approach&quot; is accepted by
+	<a href="https://www.usenix.org/conference/hotstorage15">USENIX HotStorage 
+	2015</a>. Congratulations to Wen.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I am invited to serve as the Program Committee 
+	Member in <a href="http://2015.rtss.org/">IEEE Real-Time Systems Symposium 
+	(RTSS), 2015</a>. RTSS is the premier conference in the area of real-time 
+	systems.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">Our paper &quot;Smart Hashing based Queries 
+	in the Cloud&quot; is accepted by <a href="http://www.ieee-iwqos.org/">IWQoS 2015</a> 
+	as a full paper 
+	(the premier venue on Quality of Service research) in conjunction with
+	<a href="http://fcrc.acm.org/">ACM FCRC 2015</a>.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">We host the DragonStar Program
+	<a href="http://stlab.wnlo.hust.edu.cn/dragonstar/">&quot;File Systems and 
+	Distributed Data Management Systems&quot; (</a></font><b><font size="4" face="楷体_GB2312"><a href="http://stlab.wnlo.hust.edu.cn/dragonstar/">龙星计划课程之文件系统和分布式数据管理系统)</a></font></b><font face="Times New Roman" size="4">on 
+	July 13-17, 2015. Welcome to join us and submit your application form.
+	</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">Our paper &quot;Make Smartphones Last A 
+	Day: Pre-processing Based Computer Vision Application Offloading&quot; is 
+	accepted by <a href="http://secon2015.ieee-secon.org/">IEEE SECON</a> 2015. 
+	Congratulations to Jiwei.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I am invited to serve as Program 
+	Committee Member in the 35th IEEE International Conference on Computer 
+	Communications <a href="http://infocom2016.ieee-infocom.org/">(INFOCOM), 2016</a>.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I am invited to serve as the Session Chair 
+	of 
+	the session &quot;Demand Response in Smart Grids&quot; in
+	<a href="http://infocom2015.ieee-infocom.org/">IEEE INFOCOM 2015</a>.</font></p>
+	</li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I am invited to serve as the Editor in
+	<a href="http://www.jcn.or.kr/home/journal/">Journal of Communications and 
+	Networks</a>.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">Our work &quot;E-STORE: An 
+	Energy-constrained Smartphone Storage for Near Real-time Disaster Image 
+	Sharing&quot; is accepted by
+	<a href="https://www.usenix.org/conference/fast15">USENIX FAST 2015</a> as a 
+	poster. Congratulations to Pengfei for his debut work.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I serve as the Program Committee 
+	Member in the 35th International Conference on Distributed Computing Systems 
+	(<a href="http://icdcs-2015.cse.ohio-state.edu/">ICDCS</a>), 2015 </font>
+	</p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">Our paper &quot;Design Tradeoffs for Data 
+	Deduplication Performance in Backup Workloads&quot; is accepted by
+	<a href="https://www.usenix.org/conference/fast15">USENIX FAST 2015</a>. 
+	Congratulations to Min.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I serve as the Associate Editor 
+	in <a href="http://www.springer.com/computer/journal/11704">Frontiers of 
+	Computer Science</a>.</font></p></li>
+	<li style="list-style-position: outside; list-style-type: square; ">
+	<p style="margin-bottom: 0.5em" align="justify">
+	<font face="Times New Roman" size="4">I serve as the Program Co-chair 
+	in IEEE INFOCOM 2015 Workshop of Software-Defined Data Communications and 
+	Storage (<a href="http://stlab.wnlo.hust.edu.cn/csyhua/sddcs2015.htm">SDDCS</a>) 2015. Please consider to submit your work and attend SDDCS 
+	2015.</font></p></li>
+</ul>
+<p align="justify" style="margin-bottom: 0.5em">　</p>
+<p style="margin-bottom: 0.2em"><b><font face="Times New Roman" size="5">Recent 
+Teaching:</font></b></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Data Storage 
+and Management in Internet of Things, 2011-2015</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Big Data 
+Technology, 2013 (invited talk)</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Computer 
+Network Management, 2012</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Applications 
+of the Internet, 2012</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Member of 
+Teaching Steering Committee for School of Engineering Sciences in HUST, Sep. 
+2014-Aug. 2017. </font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">PI: Data 
+Storage and Management in Internet of Things, The 5th Excellent Book Project in 
+HUST, Nov, 2011-Nov, 2014.</font></p>
+<p align="justify">　</p>
+<p style="margin-bottom: 0.2em"><b><font face="Times New Roman" size="5">
+Research Interests</font></b></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Large-scale 
+Storage Systems (Metadata management, Deduplication, Storage class memory, Data 
+analytics)</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Data Center 
+Networks (Energy efficiency, Cost-effective queries)</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+Cyber-Physical Systems (Memristor, AFDX, FlexRay)</font></p>
+<p align="justify">　</p>
+<p align="justify"><b><font face="Times New Roman" size="5">Selected Publications</font></b><font face="Times New Roman" size="4"><br>
+<br>
+<b>Storage System:</b></font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-approximate2015.pdf">Real-time 
+Semantic Search using Approximate Methodology for Large-scale Storage Systems</a>&quot;, Accepted and to appear in <b>IEEE Transactions 
+on Parallel and Distributed Systems (TPDS).</b></font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://www4.comp.polyu.edu.hk/~csbxiao/">Bin Xiao</a>,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-hybrid2014.pdf">The 
+Design and Implementations of Locality-aware Approximate Queries in Hybrid 
+Storage Systems</a>&quot;, Accepted and to appear in <b>IEEE Transactions 
+on Parallel and Distributed Systems (TPDS).</b></font></p>
+<p align="justify"><font face="Times New Roman" size="4">
+<a href="http://fumin.hustbackup.cn/?page_id=1065">Min Fu</a>, Dan Feng, Yu 
+Hua, <a href="http://www.people.vcu.edu/~xhe2/">Xubin He</a>, Zuoning Chen, 
+Jingning Liu, <a href="http://wxia.hustbackup.cn/">Wen Xia</a>, Fangting Huang, Qing Liu, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-deduplication2015.pdf">Reducing Fragmentation for 
+In-line Deduplication Backup Storage via Exploiting Backup History and Cache 
+Knowledge</a>&quot;, Accepted and to appear in <b>IEEE Transactions 
+on Parallel and Distributed Systems (TPDS).</b></font></p>
+<p align="justify"><font face="Times New Roman" size="4">
+<a href="http://wxia.hustbackup.cn/">Wen Xia</a>, 
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, Dan Feng, Yu Hua, 
+&quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-dedup2014.pdf">Similarity and Locality based Indexing for High Performance Data 
+Deduplication</a>&quot;, <b>IEEE Transactions on Computers (TC)</b>, 
+Vol.64, No.4, April 2015, pages: 1162-1176.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, 
+<a href="http://www.eece.maine.edu/~zhu/">Yifeng Zhu</a>, 
+Dan Feng, <a href="http://cse.unl.edu/~lxu/">Lei Xu</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-sane2013.pdf">SANE: 
+Semantic-Aware Namespace in Ultra-large-scale File Systems</a>&quot;, 
+<b> 
+IEEE 
+Transactions on Parallel and Distributed Systems (TPDS)</b>, Vol.25, No.5, 
+May 2014, pages:1328-1338. </font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-mercury2013.pdf">Data 
+Similarity-aware Computation Infrastructure for the Cloud</a>&quot;, <b> IEEE Transactions on Computers (TC),</b>  
+Vol.63, No.1, January 2014, pages: 3-16. </font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, 
+<a href="http://www.eece.maine.edu/~zhu/">Yifeng Zhu</a>, Dan Feng, 
+<a href="http://cse.unl.edu/~tian/">Lei Tian</a>. &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-tpds2012.pdf">Semantic-Aware Metadata Organization 
+Paradigm in Next-Generation File Systems</a>&quot;, <b> IEEE 
+Transactions on Parallel and Distributed Systems (TPDS), </b>Vol.23, No. 2, February 2012, 
+pages: 337-344.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://www.eece.maine.edu/~zhu/">Yifeng Zhu</a>, 
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, Dan 
+Feng, <a href="http://cse.unl.edu/~tian/">Lei Tian</a>. “<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-tpds2011.pdf">Supporting Scalable and Adaptive Metadata Management in 
+Ultra Large-scale File Systems</a>”,&nbsp;<b>IEEE 
+Transactions on Parallel and Distributed Systems (TPDS), </b>Vol.22, No.4, 
+April 2011, pages: 580-593.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yunxiang Wu, Fang Wang, 
+Yu Hua, Dan Feng, Yuchong Hu, Jingning Liu, Wei Tong, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-FastFCoE2015.pdf">FastFCoE: An Efficient and Scale-up Multi-core Framework for FCoE-based SAN Storage 
+Systems</a>&quot;, Accepted and to appear in the Proceedings of the 44th 
+International Conference on Parallel Processing (<b>ICPP</b>), 2015.
+(Acceptance rate: 99/305=32.5%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">
+<a href="http://wxia.hustbackup.cn/">Wen Xia</a>, Chunguang Li,
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, Dan Feng, Yu Hua, Leihua 
+Qin, Yucheng Zhang, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-hotstorage2015.pdf">Edelta: A Word-Enlarging Based Fast Delta Compression 
+Approach</a>&quot;, Proceedings of&nbsp; the 7th USENIX 
+Workshop on Hot Topics in Storage and File Systems (<b>HotStorage</b>), 2015. 
+(The first paper from mainland China, Acceptance rate: 17/55=30.9%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yuanyuan Sun, Yu Hua, 
+Dan Feng, Ling Yang, Pengfei Zuo, Shunde Cao, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-MSST2015.pdf">MinCounter: 
+An Efficient Cuckoo Hashing Scheme for Cloud Storage Systems</a>&quot;, Proceedings of the 31st International Conference on Massive 
+Storage Systems and Technology (<b>MSST</b>), 2015. (Acceptance rate: 23/100=23%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">
+<a href="http://fumin.hustbackup.cn/?page_id=1065">Min Fu</a>, Dan Feng, Yu 
+Hua, <a href="http://www.people.vcu.edu/~xhe2/">Xubin He</a>, Zuoning Chen, 
+<a href="http://wxia.hustbackup.cn/">Wen Xia</a>, Yucheng Zhang, Yujuan Tan, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-fast2015.pdf">Design Tradeoffs for Data Deduplication 
+Performance in Backup Workloads</a>&quot;, Proceedings of&nbsp; the 13th USENIX Conference on File and Storage Technologies 
+(<b>FAST</b>), February 2015, pages:331-344. (Acceptance rate: 28/130=21.5%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-SC2014.pdf">FAST: 
+Near Real-time Searchable Data Analytics for the Cloud</a>&quot;,
+Proceedings of the 
+International Conference for High Performance Computing, Networking, Storage and 
+Analysis <b> (SC)</b>, November 2014, Pages: 754-765. (Acceptance rate: 82/394=20.8%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">
+<a href="http://fumin.hustbackup.cn/?page_id=1065">Min Fu</a>, Dan Feng, Yu 
+Hua, <a href="http://www.people.vcu.edu/~xhe2/">Xubin He</a>, Zuoning Chen, 
+<a href="http://wxia.hustbackup.cn/">Wen Xia</a>, Fangting 
+Huang, Qing Liu, &quot;<a href="https://www.usenix.org/system/files/conference/atc14/atc14-paper-fu_min.pdf">Accelerating Restore and Garbage Collection in 
+Deduplication-based Backup Systems via Exploiting Historical Information</a>&quot;,
+Proceedings of USENIX Annual Technical Conference (<b>USENIX ATC</b>), 
+June 2014, pages: 181-192. (Acceptance rate: 36/241=14.9%).</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-mascots2012.pdf">MERCURY: A Scalable and Similarity-aware Scheme in Multi-level Cache 
+Hierarchy</a>&quot;, Proceedings of the 20th IEEE 
+International Symposium on Modeling, Analysis and Simulation of Computer and 
+Telecommunication Systems (<b>MASCOTS</b>), August 2012, pages: 371-378. 
+</font></p>
+<p align="justify"><font face="Times New Roman" size="4">
+<a href="http://wxia.hustbackup.cn/">Wen Xia</a>,  
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, 
+Dan Feng, Yu Hua, “<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-silo2011.pdf">SiLo: A Similarity-Locality based Near-Exact Deduplication 
+Scheme with Low RAM Overhead and High Throughput,</a>”&nbsp; 
+Proceedings of USENIX Annual Technical Conference (<b>USENIX ATC</b>), 
+June 2011. (Acceptance rate: 15%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, 
+<a href="http://www.eece.maine.edu/~zhu/">Yifeng Zhu</a>, Dan Feng, 
+<a href="http://cse.unl.edu/~tian/">Lei Tian</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-sc09.pdf">SmartStore: A New Metadata Organization Paradigm with 
+Semantic-Awareness for Next-Generation File Systems</a>&quot;, Proceedings of the 
+International Conference for High Performance Computing, Networking, Storage and 
+Analysis <b> (SC)</b>, November 2009. (Acceptance rate: 22.6%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://www.eece.maine.edu/~zhu/">Yifeng Zhu</a>, 
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, Dan 
+Feng, <a href="http://cse.unl.edu/~tian/">Lei Tian</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-ICDCS-2008.pdf">Scalable and Adaptive Metadata Management in Ultra 
+Large-scale File Systems</a>&quot;, Proceedings of the 28th International 
+Conference on Distributed Computing Systems <b>(ICDCS)</b>, June 2008, 
+pages: 403-410. (Acceptance rate: 16%)</font></p>
+<p align="justify">　</p>
+<p align="justify"><b><font face="Times New Roman" size="4">Cloud Storage:</font></b></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, 
+&quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-antelope2013.pdf">ANTELOPE: A Semantic-aware Data Cube Scheme for Cloud Data Center Networks</a>&quot;, 
+<b> IEEE Transactions on Computers (TC)</b>, Vol.63, No.9, September 
+2014, pages: 2146-2159.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://www4.comp.polyu.edu.hk/~csbxiao/">Bin Xiao</a>,
+<a href="http://cnl-ece.nus.edu.sg/elebv/">Bharadwaj Veeravalli</a>, Dan Feng. &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-tc2012.pdf">Locality-Sensitive Bloom Filter for Approximate Membership 
+Query</a>&quot;, <b>IEEE Transactions on Computers (TC), </b>Vol. 61, No. 6, 
+June 2012, pages: 817-830. (Download
+<a href="http://cs.hust.edu.cn/stlab/csyhua/lsbfcode.zip">Source Codes</a> and
+<a href="http://cs.hust.edu.cn/stlab/csyhua/lsbfmanual.pdf">Manual</a>)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">
+<a href="http://www4.comp.polyu.edu.hk/~csbxiao/">Bin Xiao</a>, Yu Hua. “<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-tpds2010.pdf">Using Parallel 
+Bloom Filters for Multi-attribute Representation on Network Services</a>”, <b>IEEE 
+Transactions on Parallel and Distributed Systems (TPDS)</b>, Vol.21, No.1, 
+January 2010, pages: 20-32.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://www4.comp.polyu.edu.hk/~csbxiao/">Bin Xiao</a>,
+<a href="http://www.cs.cityu.edu.hk/~jianwang/">Jianping Wang</a>. 
+“<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-tc2009.pdf">BR-tree: A Scalable Prototype for Supporting Multiple Queries of 
+Multidimensional Data</a>”, <b>IEEE Transactions on Computers (TC)</b>, 
+Vol.58, No.12, 2009, pages: 1585-1598.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Jiwei Li, Zhe Peng, 
+<a href="http://www4.comp.polyu.edu.hk/~csbxiao/">Bin Xiao</a>, 
+Yu Hua, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/HUA-SECON2015.pdf">Make Smartphones Last A Day: Pre-processing Based Computer Vision 
+Application Offloading</a>&quot;, Proceedings of 
+the Twelfth Annual IEEE International Conference on Sensing, Communication, 
+and Networking (<b>SECON</b>), 2015. (Acceptance rate: 55/194=28.3%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-IWQOS2015.pdf">Smart 
+Hashing based Queries in the Cloud</a>&quot;, Proceedings of IEEE/ACM International Symposium on Quality of Service (<b>IWQoS</b>), 
+2015, pages: 1-10. (Acceptance rate: 20/89=22.5% as Full Paper, in conjunction with ACM FCRC 2015)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~wenbohe/">Wenbo He</a>, &nbsp;<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>, 
+Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-INFOCOM2015.pdf">SmartEye: Real-time and Efficient Cloud Image Sharing for Disaster 
+Environments</a>&quot;, Proceedings of the 34th IEEE International Conference on&nbsp; 
+Computer Communications (<b>INFOCOM</b>), 2015, pages: 1616-1624. (Acceptance rate: 
+316/1640=19%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, Dan Feng, 
+&quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/2014-needle.pdf">Needle in A Haystack: Cost-Effective Data Analytics for Real-Time Cloud 
+Sharing</a>&quot;,
+Proceedings of IEEE/ACM International Symposium 
+on Quality of Service (<b>IWQoS</b>), 2014, pages: 41-49. (Acceptance rate: 23.8%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Qiuyu Li, Yu Hua,
+<a href="http://www.cs.mcgill.ca/~wenbohe/">Wenbo He</a>, Dan Feng, Zhenhua Nie, 
+Yuanyuan Sun, &quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/2014-necklace.pdf">Necklace: An Efficient Cuckoo Hashing Scheme for Cloud Storage 
+Services</a>&quot;,
+Proceedings of IEEE/ACM International Symposium 
+on Quality of Service (<b>IWQoS</b>), 2014, pages: 50-55.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-neptune2014.pdf">Neptune: Efficient Remote Communication Services for Cloud Backups</a>&quot;,
+Proceedings of the 33rd IEEE International Conference on&nbsp; 
+Computer Communications (<b>INFOCOM</b>), 2014, pages: 844-852. (Acceptance rate: 19.4%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Jing Zhang, Xiangke 
+Liao, Shanshan Li, Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+Bin Lin, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-code2014.pdf">Aggrecode: Constructing Route Intersection for Data Reconstruction in 
+Erasure Coded Storage Systems</a>&quot;, Proceedings of the 33rd IEEE International Conference on&nbsp; 
+Computer Communications (<b>INFOCOM</b>), 2014, pages: 2139-2147. (Acceptance rate: 19.4%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://www4.comp.polyu.edu.hk/~csbxiao/">Bin Xiao</a>, 
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-infocom2013.pdf">NEST: Locality-aware 
+Approximate Query Service for Cloud Computing</a>&quot;, Proceedings of the 32nd IEEE International Conference on&nbsp; 
+Computer Communications (<b>INFOCOM</b>), April 2013, pages: 1327-1335. 
+(Acceptance rate: 17%, Download&nbsp;
+<a href="http://cs.hust.edu.cn/stlab/csyhua/nestcode.zip">Source Codes</a> and
+<a href="http://cs.hust.edu.cn/stlab/csyhua/nestmanual.pdf">Manual</a>)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://www4.comp.polyu.edu.hk/~csbxiao/">Bin Xiao</a>, Dan Feng, Bo Yu, 
+&quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-icpp08.pdf">Bounded LSH for Similarity Search in Peer-to-Peer File Systems</a>&quot;, Proceedings of the 37th International Conference on Parallel Processing<b>
+(ICPP)</b>, September 2008, pages: 644-651. (Acceptance rate: 30.8%)</font></p>
+<p align="justify">　</p>
+<p align="justify"><b><font face="Times New Roman" size="4">CPS Storage:</font></b></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+<a href="http://www.cs.mcgill.ca/~wenbohe/">Wenbo He</a>, Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-hosa2013.pdf">Design and 
+Implementation of Holistic Scheduling and Efficient Storage for FlexRay</a>&quot;, 
+<b> 
+IEEE 
+Transactions on Parallel and Distributed Systems (TPDS)</b>, Vol.25, No.10, 
+October 2014, pages: 2529-2539. </font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-afdx2012.pdf">Scheduling 
+Heterogeneous Flows with Delay-aware Deduplication for Avionics Applications</a>&quot;,
+<b> IEEE 
+Transactions on Parallel and Distributed Systems (TPDS), </b>Vol. 23, No. 9, 
+September 2012, pages: 1790-1802.</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="https://sites.google.com/site/drleirao/">Lei Rao</a>,&nbsp;<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+Dan Feng, &quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/2014-coefficient.pdf">Cooperative and Efficient Real-time Scheduling for Automotive 
+Communications</a>&quot;,
+Proceedings of the 34th International 
+Conference on Distributed Computing Systems <b>(ICDCS)</b>, 2014, 
+pages:134-143. 
+(Acceptance rate: 66/500=13%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Ying Fang, Yu Hua, <a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>, 
+&quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/2014-hersa.pdf">Efficient End-to-End Communication Services for Mixed 
+Criticality Avionics Systems</a>&quot;,
+Proceedings of IEEE/ACM International Symposium 
+on Quality of Service (<b>IWQoS</b>), 2014, pages: 66-75. (Acceptance rate: 23.8%)</font></p>
+<p align="justify"><font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+<a href="http://www.cs.mcgill.ca/~wenbohe/">Wenbo He</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-infocom2012.pdf">HOSA: Holistic 
+Scheduling and Analysis for Scalable Fault-tolerant FlexRay Design</a>&quot;, Proceedings of the 
+31st IEEE International Conference on&nbsp; 
+Computer Communications (<b>INFOCOM</b>), March 2012, pages: 1233-1241. 
+(Acceptance rate: 18%)</font></p>
+<p align="justify"><font size="4" face="Times New Roman">Yu Hua, 
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-infocom2011.pdf">Scheduling Design and 
+Analysis for End-to-End Heterogeneous Flows in an Avionics Network</a>&quot;, Proceedings of the 30th IEEE International Conference on&nbsp; 
+Computer Communications (<b>INFOCOM</b>), April 2011, pages: 2417-2425. 
+(Acceptance rate: 16%)</font></p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; ">
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">　</p>
+</span>
+<p><b><font face="Times New Roman" size="4">Work-in-Progress Reports and Posters:</font></b></p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; ">
+<font face="Times New Roman" size="4">Pengfei Zuo, Yu Hua, Dan Feng, Zhenhua Nie, 
+<a href="http://fumin.hustbackup.cn/?page_id=1065">Min Fu</a>, Yuanyuan Sun, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-fast2015poster.pdf">E-STORE: An Energy-constrained Smartphone Storage for 
+Near Real-time Disaster Image Sharing</a>&quot;, </font>
+</span>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; ">
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<font face="Times New Roman" size="4">Poster in the 13th USENIX 
+Conference on File and Storage Technologies (<b>FAST</b>), February, 2015.</font></span></p>
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; ">
+　</p>
+</span>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; ">
+<font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, Dan 
+Feng, 
+<a href="http://cse.unl.edu/~tian/">Lei Tian</a>, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-socc2013.pdf">FAST: Near Real-time Data Analytics for the Cloud</a>&quot;, Proceedings of ACM 
+Symposium on Cloud Computing (<b>SOCC</b>), 2013 (based on full submitted paper)</font></p>
+</span>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; ">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; ">
+　</p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; ">
+<font face="Times New Roman" size="4">Yu Hua,
+<a href="http://www.cs.mcgill.ca/~xueliu/">Xue Liu</a>,
+Dan Feng, &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-sigcomm2013.pdf">Smart In-Network Deduplication for Storage-aware SDN</a>&quot;, 
+Proceedings of <b>ACM SIGCOMM</b>, and ACM SIGCOMM Computer Communication Review, 
+Volume 43, Issue 4, 2013, pages: 509-510. </font>
+</p>
+</span>
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">　</p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+<font face="Times New Roman" size="4">Yu Hua, 
+<a href="http://cse.unl.edu/~jiang/">Hong Jiang</a>, 
+<a href="http://www.eece.maine.edu/~zhu/">Yifeng Zhu</a>, Dan Feng, 
+<a href="http://cse.unl.edu/~tian/">Lei Tian</a><span style="color: #000000">,</span> &quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-fast2009.pdf">SmartStore: 
+A New Metadata Organization Paradigm with Semantic-Awareness</a>&quot;,&nbsp;Work-in-progress 
+report and poster in the 7th USENIX 
+Conference on File and Storage Technologies (<b>FAST</b>), February 24–27, 2009.</font></p>
+</span>
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">　</p>
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+　</p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+<b><font face="Times New Roman" size="4">
+<a href="http://cs.hust.edu.cn/stlab/csyhua/fullpaper.htm">Full Paper List ...</a></font></b></p>
+</span>
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+　</p>
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+　</p>
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+　</p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+<b><font face="Times New Roman" size="5">Research Projects:</font></b></p>
+</span>
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+　</p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+<font face="Times New Roman" size="4"><b>PI:&nbsp;</b>&quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/project11.htm">Research on Correlation-Aware 
+Organization Model and Key Technology in Hybrid Storage Systems</a>&quot;,&nbsp;National 
+Natural Science Foundation of China (NSFC), No. 61173043, 2012- 2015.</font></p>
+</span>
+<p style="font-weight: normal; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0.2em; padding: 0px">　</p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+<font face="Times New Roman" size="4"><b>Key Member:</b> &quot;Basic Research on Data 
+Storage System Theory and Technology for Complex Application Environment&quot;, 
+National Basic Research 973 Program of China, 2011-2015.</font></p>
+</span>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+</span>
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+　</p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+<font face="Times New Roman" size="4"><b>PI:&nbsp;</b>&quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/project07.htm">Research on Multi-dimensional Metadata Structure and Fast Query 
+Approach in Large-scale Storage System</a>&quot;,&nbsp;National Natural Science Foundation of 
+China (NSFC), No. 60703046, 2008-2010.</font></p>
+</span>
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+　</p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+<font face="Times New Roman" size="4"><b>PI:</b> &quot;Research on the Key Technology in the Semantic-aware 
+Storage Systems for Big Data&quot;, Fundamental Research Funds for the Central Universities (HUST), 
+2012-2013.<br>
+　</font></p>
+</span>
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<font face="Times New Roman" size="4"><b>PI</b>: &quot;High-Quality Retrievals in 
+Massive Storage Systems&quot;, Fundamental Research Funds for the Central 
+Universities (HUST), 2010-2011.</font></span></p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+<font face="Times New Roman" size="4"><br>
+<b>PI</b>: &quot;Real-time Analytics and 
+Optimization for Redundant Big Data&quot;, The Seed Project of Wuhan National Laboratory for 
+Optoelectronics (WNLO), 2014</font><b><font size="4" face="楷体_GB2312"><span>.</span></font></b></p>
+</span>
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+　</p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+<font face="Times New Roman" size="4"><b>Key Member</b>: &quot;Research on Organization and Key Technologies of Storage 
+Systems on the Next Generation Internet&quot;, National Basic Research 973 Program of 
+China, 2005-2009. (Evaluation: Excellence; </font>
+<b>
+<font size="4" face="楷体_GB2312"><span>结题评价：优秀</span></font></b><font face="Times New Roman" size="4">)</font></span></p>
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+　</p>
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<font face="Times New Roman" size="4">
+<b>Key Member</b>:
+&quot;PB-scale 
+High-performance Massive Storage Systems and Applications&quot;, National High Technology Research and 
+Development 863 Program of China &nbsp;</font><b><font size="4" face="楷体_GB2312">(国家863计划重大项目)</font></b><font face="Times New Roman">, 
+2009-2010.</font></span></p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+<font face="Times New Roman" size="4"><br>
+<b>Key Member</b>: &quot;Information Storage 
+Systems and Technology&quot;, the Program for Changjiang Scholars and Innovative 
+Research Team in University
+</font>
+<b><font size="4" face="楷体_GB2312">(教育部创新团队)</font></b><font face="Times New Roman" size="4">, 
+2008-2010. (Evaluation: Excellence; </font><b><font size="4" face="楷体_GB2312">
+<span>结题评价：优秀</span></font></b><font face="Times New Roman" size="4">)</font></p>
+</span>
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+　</p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+<font face="Times New Roman" size="4"><b>Postdoc Research Fellow</b>: &quot;<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=0937993">HECURA: A New 
+Semantic-Aware Metadata Organization for Improved File-System Performance and 
+Functionality in High-End Computing</a>&quot;,&nbsp; National Science Foundation (NSF), 
+2009-2013.</font></p>
+</span>
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+　</p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="padding:0px; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.2em; margin-left: 0px; ">
+<font face="Times New Roman" size="4"><b>Collaborator</b>: &quot;<a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1116606">SANE: 
+Semantic-Aware Namespace in Exascale File Systems</a>&quot;, National Science 
+Foundation (NSF), 2011-2014.</font></span></p>
+</span>
+<p style="margin-bottom: 0.2em">　</p>
+<p style="margin-bottom: 0.2em">　</p>
+<p style="margin-bottom: 0.2em"><b><font face="Times New Roman" size="5">Recent Professional Services 
+(2013-)</font></b><font face="Times New Roman" size="4"><br>
+　</font></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+<b><font face="Times New Roman" size="4">Reviewer for Funding Agencies:</font></b></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">National Natural Science Foundation of 
+China (NSFC)</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">National High Technology Research and 
+Development 863 Program of China</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Panelist in National Twelfth Five-Year Science and 
+Technology Plan (</font><b><font face="楷体_GB2312" size="4">国家&quot;十二五&quot;科技计划项目会评专家</font></b><font face="Times New Roman" size="4">)</font></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+<b><font face="Times New Roman" size="4">Academic Member:</font></b></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Senior Member: IEEE and CCF</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Member: USENIX, ACM, ChinaSys, CCF YOCSEF, CCF Information Storage Technology 
+Committee (</font><b><font face="楷体_GB2312" size="4">中国计算机学会信息存储技术专业委员会</font></b><font face="Times New Roman" size="4">), CCF 
+High-Performance Computing Committee </font><font size="4" face="楷体_GB2312"><b>
+(中国计算机学会高性能计算专业委员会)</b></font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Corresponding Member: CCF Academic 
+Committee (</font><b><font face="楷体_GB2312" size="4">中国计算机学会学术工作委员会</font></b><font face="Times New Roman" size="4">)</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Lecturer: CCF@U (</font><b><font face="楷体_GB2312" size="4">CCF走进高校</font></b><font face="Times New Roman" size="4">)</font></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+<b><font face="Times New Roman" size="4">Associate Editor: </font></b></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Frontiers of Computer Science (FCS, 2014-)</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Journal of Communications and Networks (JCN, 
+2015-)</font></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+<b><font face="Times New Roman" size="4">Chair or PC Member for Conferences and 
+Workshops:</font></b></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">2016:</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Publicity Co-Chair: The 7th ACM/SPEC 
+International Conference on Performance Engineering (ICPE), 2016.</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 45th Annual 
+Conference 2016 International Conference on Parallel Processing (ICPP), 2016.</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 
+35th IEEE International Conference on Computer Communications (INFOCOM), 2016</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 16th 
+IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid), 
+2016</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 7th ACM/SPEC 
+International Conference on Performance Engineering (ICPE), 2016.</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Guest Editor: Special Issue &quot;Green 
+Communication&quot; in Journal of Communications and 
+	Networks (JCN), 2016.</font></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">2015:</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: 
+IEEE Real-Time Systems Symposium (RTSS), 2015.</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member:&nbsp; The 
+35th International Conference on Distributed Computing Systems (ICDCS), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Co-chair:&nbsp; IEEE INFOCOM 2015 
+Workshop of Software-Defined Data Communications and Storage (SDDCS), 2015. 
+</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Session Chair: The 34th IEEE International Conference on Computer Communications (INFOCOM), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 44th 
+International Conference on Parallel Processing (ICPP), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Session Chair: 
+IEEE/ACM International Symposium on Quality of Service (IWQoS), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Panel Chair:&nbsp; &quot;HPC Plus&quot; in 
+conjunction with CCF HPC China, 2015.</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 21st National Conference of Information 
+Storage (NCIS), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The Third CCF 
+Academic Conference on Big Data (CCF Big Data), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 4th IEEE 
+Non-Volatile Memory System and Applications Symposium (NVMSA), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 26th International Conference on 
+Database and Expert Systems Applications (DEXA), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: IEEE 
+International Conference on Computer Communications and Networks (ICCCN), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: 
+The 7th International Conference on Cloud Computing Technology and Science (CloudCom), 
+2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: 
+The 2nd IEEE International Conference on Cyber Security and Cloud Computing (CSCloud), 
+2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 12th IEEE 
+International Conference on Advanced and Trusted Computing (ATC), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 
+International Symposium on Nanoelectronics and Information Systems (iNIS), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: IEEE/CIC 
+International Conference on Communications in China (ICCC), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 30th ACM/SIGAPP 
+Symposium On Applied Computing (SAC), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: 2015 IEEE 
+Region 10 Symposium (TENSYMP), 
+2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: 
+ACM International Conference on 
+Research in Adaptive and Convergent Systems (RACS), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member:&nbsp;The 
+6th International Workshop on Trust, Security and Privacy for Big Data (TrustData), 
+2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: 2015 International Conference on Computing 
+and Network Communications (CoCoNet), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Publicity Co-chair: The 4th IEEE 
+Non-Volatile Memory System and Applications Symposium (NVMSA), 2015</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">External Thesis Examiner: &nbsp;The 
+Chinese University of Hong Kong, 2015</font></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">2014:</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Session Chair: The 
+33rd IEEE International Conference on Computer Communications (INFOCOM), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: 
+IEEE/ACM International Symposium on Quality of Service (IWQoS), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 
+33rd IEEE International Conference on Computer Communications (INFOCOM), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 14th 
+IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid), 
+2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Vice Chair: The IEEE International Conference on 
+Networking, Architecture, and Storage (NAS), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Session Chair: The 14th International 
+Conference on Algorithms and Architectures for Parallel Processing (ICA3PP), 
+2014.</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 25th International Conference on 
+Database and Expert Systems Applications (DEXA), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Session Chair: IEEE/CIC 
+International Conference on Communications in China (ICCC), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Session Chair: 2014 International Conference on Smart 
+Computing (SMARTCOMP), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Session Chair: The 20th national 
+Network and Data Communications Conference (NDCC), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Session Chair: The First International 
+Workshop on Smart Embedded Systems (SES), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Session Chair: The 20th National Conference of Information 
+Storage (NCIS), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: 
+ACM International Conference on 
+Research in Adaptive and Convergent Systems (RACS), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: 
+CCF China National Computer Congress (CNCC), 
+2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 25th International Conference on 
+Database and Expert Systems Applications (DEXA), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member:&nbsp; The 2014 Asia-Pacific Services Computing 
+Conference (APSCC), 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member:&nbsp;The 
+2014 International Workshop on Trust, Security and Privacy for Big Data (TrustData), 
+2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: IEEE/CIC 
+International Conference on Communications in China (ICCC)- WNM and PSC, 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member:&nbsp;The 
+5th 
+International Workshop on Networks of Cooperating Objects for Smart Cities  
+(UBICITEC) jointly held with CPSWeek 2014</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">External Thesis Examiner: &nbsp;The 
+Chinese University of Hong Kong, 2014</font></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">2013:</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Publication/Web Chair: The 
+21st IEEE/ACM 
+International Symposium on Quality of Service (IWQoS), 2013</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member:&nbsp;The 
+42nd Annual Conference - International Conference on Parallel Processing (ICPP), 
+2013.</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 
+18th IEEE International Conference on Embedded and Real-Time Computing Systems 
+and Applications (RTCSA), 2013</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 
+9th International Conference on Mobile Ad-hoc and Sensor Networks (MSN), 2013</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member:&nbsp;The International Conference on Embedded and Ubiquitous 
+Computing (EUC), 2013</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member:&nbsp;The 4th 
+International Workshop on Networks of Cooperating Objects for Smart Cities  
+(CONET/UBICITEC 2013) jointly held with CPSWeek 2013</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: 
+CCF China National Computer Congress (CNCC), 
+2013</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member:&nbsp;The 
+2013 International Workshop on Trust, Security and Privacy for Big Data (TrustData), 
+2013</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member:&nbsp; ACM International Conference on 
+Reliable and Convergent Systems (ACM RACS), 2013</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member:&nbsp;The 
+3rd IEEE 
+International Symposium on Trust and Identity in Mobile Internet, Computing and 
+Communications (TrustID), 2013</font></p>
+<p style="margin-bottom: 0em">
+<font face="Times New Roman" size="4">Program Committee Member: The 24th International Conference on 
+Database and Expert Systems Applications (DEXA), 2013</font></p>
+<p style="margin-bottom: 0em">
+　</p>
+<p style="margin-bottom: 0.2em">　</p>
+<p><font face="Times New Roman" size="4"><b>Reviewer:</b>
+</font></p>
+<p style="margin-bottom: 0em" align="justify">
+<font face="Times New Roman" size="4">IEEE Transactions on Computers (TC),&nbsp; IEEE Transactions on Parallel and Distributed 
+Systems (TPDS), IEEE Transactions on Cloud Computing (TCC), IEEE Journal on Selected Areas in Communications (JSAC), IEEE Transactions on Vehicular Technology 
+(TVT), IEEE Transactions on Smart Grid (TSG), VLDB Journal, Journal of Parallel and Distributed 
+Computing (JPDC), Frontiers of Computer Science (FCS), Transactions on Large Scale Data and Knowledge Centered Systems (TLDKS), Information Sciences, The Computer Journal, Computer Communications, Journal of Computer Architecture, Parallel and Distributed Computing and Networks, Journal of Supercomputing (Springer), IEEE Communications Letters, Chinese Journal of Computers, Journal of Computer Research and Development, Neural Computing &amp; Applications (Springer), Journal of Communications and 
+Networks, Security and Communication Networks 
+(Wiley), IEEE Systems Journal, Journal of Computer Science and Technology 
+(JCST), Science China (Information Sciences), ......</font></p>
+<p style="margin-bottom: 0em" align="justify">　</p>
+<p style="margin-bottom: 0em" align="justify"><font face="Times New Roman" size="4">INFOCOM, ICDCS, RTSS, SC, GLOBECOM, ICPP, DATE, CCGrid, WASA, 
+......</font></p>
+<p style="margin-bottom: 0em" align="justify">　</p>
+<p style="margin-bottom: 0em" align="justify">　</p>
+<p>
+<b><font size="5" face="Times New Roman">Invited Talk</font></b></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;Real-time 
+Storage Systems for Disaster Management&quot; in the 21st National Conference of 
+Information Storage (NCIS, </font><font size="4" face="楷体_GB2312"><b>
+全国信息存储技术学术年会</b></font><font face="Times New Roman" size="4">), 
+September 2015.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;System and 
+Architecture of Approximate Data Deduplication in Cloud Storage&quot;, Wuhan 
+University, May 2015. See the
+<a href="http://cs.whu.edu.cn/cs2011/News_Cons.php?id=2926">News</a>.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;Smart Big 
+Data Analytics in Large-scale Storage Systems&quot;, The Hong Kong Polytechnic 
+University, Hong Kong, March 2015</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;Near Real-time Data Analytics: Observations and Insights&quot;, University of 
+Colorado at Colorado Springs, November 2014.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;Large-scale 
+Network Storage Systems&quot;, Jinan University, 
+November 2014. See the
+<a href="http://125.218.212.217/index.php?m=content&c=index&a=show&catid=87&id=835">
+News</a>.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;Smart Deduplication and Compression in Mobile Clouds&quot;, IEEE/CIC 
+International Conference on Communications in China (<a href="http://www.ieee-iccc.org/index.html">ICCC</a>), October 2014.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/NCIS2014.pdf">Approximate 
+Data Deduplication in Storage Systems for Big Data</a>&quot;, Young Scientists Forum 
+in the 20th National Conference of Information Storage (<a href="http://acs.ict.ac.cn/ncis2014/">NCIS</a>), 
+September 2014.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-nvmsa2014.pdf">Non-volatile Storage Support for Data Deduplication</a>&quot;, in
+<a href="http://www.nvmsa.org/2014/general/">NVMSA 2014</a>, in 
+	conjunction with <a href="http://www.cs.cqu.edu.cn:8085/index.html">RTCSA 2014</a>, 
+August 2014.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;Software-defined 
+Deduplication in Networking Systems&quot;, City University of Hong Kong, Hong 
+Kong, May 2014.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;Software-defined 
+Deduplication and Compression in Remote backups&quot;,&nbsp; McGill University, 
+Montreal, Canada, May 2014.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;Data 
+Deduplication based Cloud Backup Systems&quot;, The workshop of smart city and cloud 
+computing by ACM (China) Conference Committee, May 2014.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;Design 
+and Implementation of Network Storage Systems: From Cloud to SDN&quot;, McGill University, Montreal, Canada, Nov. 2013.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">&quot;Large-scale 
+Storage Systems&quot;, The Hong Kong Polytechnic University, Hong Kong, Nov. 2011</font></p>
+<p style="margin-bottom: 0em" align="justify">　</p>
+<p style="margin-bottom: 0em" align="justify">　</p>
+<p><b><font size="5" face="Times New Roman">Open-source Software</font></b></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/syy804123097/LSBF">LSBF</a></b> 
+(Locality-Sensitive Bloom Filter): 
+in GitHub (Download <a href="http://cs.hust.edu.cn/stlab/csyhua/hua-tc2012.pdf">
+TC Paper</a>,
+<a href="http://cs.hust.edu.cn/stlab/csyhua/lsbfcode.zip">Source Codes</a>&nbsp;and&nbsp;<a href="http://cs.hust.edu.cn/stlab/csyhua/lsbfmanual.pdf">Manual</a>).</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/syy804123097/NEST">NEST</a></b>: 
+in GitHub&nbsp;(Download&nbsp;<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-infocom2013.pdf">INFOCOM 
+Paper</a>,
+<a href="http://cs.hust.edu.cn/stlab/csyhua/nestcode.zip">Source Codes</a>,&nbsp;<a href="http://cs.hust.edu.cn/stlab/csyhua/nestmanual.pdf">Manual</a>&nbsp;and&nbsp;<a href="http://cs.hust.edu.cn/stlab/csyhua/TraceData.pdf">TraceData</a>).</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/Pfzuo/E-STORE">E-STORE</a></b>: in GitHub. E-STORE (<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-fast2015poster.pdf">FAST Poster</a>) offers near-deduplication for image sharing based on the energy 
+availability in Smartphone.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/syy804123097/MinCounter">MinCounter</a></b>: in 
+GitHub. MinCounter is the proposed data structure in the
+<a href="http://cs.hust.edu.cn/stlab/csyhua/hua-MSST2015.pdf">MSST Paper</a>.</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em" align="justify">　</p>
+<p><b><font size="5" face="Times New Roman">Awards</font></b></p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">2014 <b>Best 
+Paper Award</b> in Tsinghua Science and Technology (TST).</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Outstanding 
+Reviewer in Journal of Parallel and Distributed Computing (JPDC), 2015.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+Advisor Awards
+</b>for<b> </b>Excellent B.E Thesis in Hubei Province </font><font size="4" face="楷体_GB2312"><b>(湖北省优秀学士学位论文</b></font><b><font size="4" face="楷体_GB2312">指导教师</font></b><font face="Times New Roman" size="4">), 
+2014</font></p>
+<p style="font-weight: normal; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0.2em; padding: 0px">
+<font face="Times New Roman" size="4">Young Science Dawning Scholar 
+in Hubei Province (</font><b><font face="楷体_GB2312" size="4">湖北省青年</font></b></span><span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; "><span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium"><b><font face="楷体_GB2312" size="4">科技</font></b></span></span><span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium"><b><font face="楷体_GB2312" size="4">晨光人才计划项目</font></b><font face="Times New Roman" size="4">), 2014.</font></p>
+</span>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+Advisor Awards
+</b>for<b> </b>Excellent B.E Thesis 
+in the University </font><font size="4" face="楷体_GB2312"><b>(华中科技大学优秀</b></font><b><font size="4" face="楷体_GB2312">学士学位论文一等奖和三等奖指导教师</font></b><font face="Times New Roman" size="4">), 
+2014-2015</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>Award </b>
+for SIGCOMM Poster by
+	<a href="http://www.hkpeihua.com.hk/en/">Hong Kong Pei Hua Education Foundation</a>
+	</font><font face="楷体_GB2312" size="4"><b>(香港培华教育基金会)</b></font><font face="Times New Roman" size="4">, 2013</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+<a href="http://www.ccf.org.cn/sites/ccf/xhdtnry.jsp?contentId=2767423969112">Best Demo Award</a></font><a href="http://www.ccf.org.cn/sites/ccf/xhdtnry.jsp?contentId=2767423969112"><font face="Times New Roman" size="4">
+</font></a><font face="Times New Roman" size="4">in CCF CNCC (China National 
+Computer Congress) </font><font face="楷体_GB2312" size="4"><b>(中国计算机大会最佳技术展示奖),</b></font><font face="Times New Roman" size="4"> 2013</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>Award </b>
+for Electronics Information Science and Technology (The Second Prize) , Chinese 
+Institute of Electronics (</font><b><font face="楷体_GB2312" size="4">中国电子学会电子信息科学技术奖</font></b><font face="Times New Roman" size="4">), 2011</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+Advisor Award </b>for Excellent Master Thesis in Hubei Province (</font><font size="4" face="楷体_GB2312"><b>湖北省优秀硕士学位</b></font><b><font size="4" face="楷体_GB2312">论文指导教师</font></b><font face="Times New Roman" size="4">), 
+2010</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+Contribution Award </b>as Publication Chair at UIC/ATC conferences, 2007<br>
+<b>Yugang and Songxiao Scholarship</b> for Graduate Student, Wuhan University, 
+2004<br>
+<b>Outstanding Graduate Student Award</b>, Wuhan University, 2003<br>
+<b>Excellent Graduate Student Award</b>, Wuhan University, 2002<br>
+<b>Honorable Mentions </b>in The Mathematical Contest in Modeling (<a href="http://www.comap.com/undergraduate/contests/mcm/">MCM</a>), 
+2000 <br>
+<b>The First Prize</b> of Hubei Province in China Undergraduate Mathematical 
+Contest in Modeling (<a href="http://en.mcm.edu.cn/">CUMCM</a>), 1999<br>
+　</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em">　</p>
+<p><b><font size="5" face="Times New Roman">Patent and Software Copyright</font></b></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Smart 
+In-network Redundancy Identification for Online Multimedia Applications, 2015 
+(Filed, Software Copyright)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">In-network 
+deduplication scheme in software-defined networks, 2015 (Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+Provenance-aware video sharing services in cloud storage systems, 2014 (Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A 
+fragmentation elimination scheme based on historical information, 2014 (Filed)&nbsp;
+</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A data 
+recovery approach in cloud backups, 2014&nbsp; (Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A provenance 
+based metadata query scheme in storage systems, 2013 (Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+Near-duplicate video detection scheme in large-scale storage systems, 2013 
+(Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A write 
+sequence analysis in internal SSD, 2013 (Filed)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+Correlation-aware multi-dimensional metadata management systems, 2013 (Filed)</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+Cost-efficient smartphone-based image sharing and near-deduplication services, 
+July 2015 (Granted, Software Copyright)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A data 
+deduplication scheme by exploiting similarity and locality, August 2012 (Granted)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">A computer 
+management method, May 2012 (Granted)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Data 
+classification management software, October 2011 (Granted, Software Copyright)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">An improved 
+method for parallel streaming media servers, December 2010 (Granted)</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Importance 
+evaluation method of files, April 2010 (Granted)</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em">　</p>
+<p><b><font face="Times New Roman" size="5">Members in my Research Group</font></b></p>
+<p style="MARGIN-BOTTOM: 0em"><font face="Times New Roman" size="4">I am 
+fortunate to work with the smart students. </font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">We are 
+recruiting self-motivated Ph.D and Master students with solid backgrounds in 
+computer systems and networks. Please feel free to contact me for details.</font></p>
+<p style="MARGIN-BOTTOM: 0em">　</p>
+<p style="MARGIN-BOTTOM: 0em">　</p>
+<p style="MARGIN-BOTTOM: 0em"><font face="Times New Roman" size="4"><b>Ph.D 
+Students </b></font></p>
+<p style="MARGIN-BOTTOM: 0em">　</p>
+<p style="MARGIN-BOTTOM: 0em"><font face="Times New Roman" size="4">2014: 
+Pengfei Zuo, Yuanyuan Sun</font></p>
+<p style="MARGIN-BOTTOM: 0em"><font face="Times New Roman" size="4">2011: 
+<a href="http://fumin.hustbackup.cn/?page_id=1065">Min Fu</a> (co-supervised with Prof. Dan Feng)</font></p>
+<p style="MARGIN-BOTTOM: 0em"><font face="Times New Roman" size="4">2010: Wen Zhou (co-supervised with Prof. Dan Feng)</font></p>
+<p style="MARGIN-BOTTOM: 0em"><font face="Times New Roman" size="4">2009: Jinjun 
+Liu, <a href="http://wxia.hustbackup.cn/">Wen Xia</a> (co-supervised with Prof. Dan Feng)</font></p>
+<p style="MARGIN-BOTTOM: 0em">　</p>
+<p style="MARGIN-BOTTOM: 0em"><b><font face="Times New Roman" size="4">Master Students</font></b></p>
+<p style="MARGIN-BOTTOM: 0em">　</p>
+<p style="MARGIN-BOTTOM: 0em"><font face="Times New Roman" size="4">2015: 
+Yuncheng Guo, Jie Wu</font></p>
+<p style="MARGIN-BOTTOM: 0em"><font face="Times New Roman" size="4">2014: Shunde 
+Cao, Ling Yang</font></p>
+<p style="MARGIN-BOTTOM: 0em"><font face="Times New Roman" size="4">2013: Bin 
+Peng, Linqian Wu, Zhou Feng</font></p>
+<p style="MARGIN-BOTTOM: 0em"><font face="Times New Roman" size="4">2012: Rongyu 
+Lai, Zhenhua Nie, Juan Cai, Bai Li</font></p>
+<p style="MARGIN-BOTTOM: 0em"><font face="Times New Roman" size="4">2011: Dazhang Huang, Yu Li, Qian Zhao</font></p>
+<p style="MARGIN-BOTTOM: 0em"><font size="4" face="Times New Roman">2010: Jienan 
+Zeng, Yunsheng Zhu, Shuangning He, Fei Wang</font></p>
+<p style="MARGIN-BOTTOM: 0em"><font size="4" face="Times New Roman">2009: 
+Tianyao Wu, Jia Hu, Tao Lu, Heng Zhao<br>
+2008: Yuhua Guo, <a href="http://wxia.hustbackup.cn/">Wen Xia</a>, Yang Li, Mengying Gao<br>
+2007: Chen Hu, Guodong Li, Jinjun Liu </font></p>
+
+<p style="margin-bottom: 0em">　</p>
+<p><b><font size="4" face="Times New Roman">Undergraduate Intern Students</font></b></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">2014: Shu 
+Sun</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">2012: Huarui 
+Zhang, Junfeng Shenju, Yuqiao Han</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">2011: Lang 
+Liu, Kaihao Li, Yuncheng Guo, Jie Wu</font></p>
+<p style="margin-bottom: 0em"><font size="4" face="Times New Roman">2010: Qiuyu 
+Li, Pengfei Zuo, Yuanyuan Sun</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p><font face="Times New Roman" size="4"><b>Awards of my 
+Students:</b></font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Yuncheng Guo 
+and Jie Wu received the Awards of Excellent B.E. Thesis in HUST (</font><b><font face="楷体_GB2312" size="4">华中</font></b><font size="4" face="楷体_GB2312"><b>科技大学优秀学士学位论文</b></font><font face="Times New Roman" size="4">), 
+2015.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Zhenhua Nie, 
+Rongyu Lai and Linqian Wu are the Outstanding Graduate Students in HUST, 2015 (</font><font size="4" face="楷体_GB2312"><b>华中科技大学2015届优秀毕业研究生</b></font><font face="Times New Roman" size="4">).
+</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Qiuyu Li and 
+Pengfei Zuo received the Awards of Excellent B.E. Thesis in Hubei Province (</font><font size="4" face="楷体_GB2312"><b>湖北省优秀学士学位论文</b></font><font face="Times New Roman" size="4">), 
+2014</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Linqian Wu 
+and Zhou Feng received Micron Excellent Graduate Scholarship </font>
+<font size="4" face="楷体_GB2312"><b>(美光优秀研究生奖学金)</b></font><font face="Times New Roman" size="4">, 
+2014</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Zhenhua Nie and 
+Rongyu Lai received 
+the Graduate National Scholarship</font><font size="4" face="楷体_GB2312"><b> 
+(研究生国家奖学金),</b></font><font face="Times New Roman" size="4"> 2014.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Qiuyu Li 
+received the highest score in school of computer when defending her B.E 
+dissertation, 2014.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Qiuyu Li and 
+	Pengfei Zuo received the 
+	Excellent B.E Thesis Awards in the University, 2014.&nbsp; </font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Our alumni, 
+Tao Lu, received the Best Student Paper Award in IEEE NAS 2014.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Qiuyu Li was 
+recommended and became a Master student in
+<a href="http://www.ed.ac.uk/home">The University of Edinburgh</a>, 2014.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+<a href="http://wxia.hustbackup.cn/">Wen Xia</a> 
+successfully defended his Ph.D dissertation and became an 
+	Assistant Professor in HUST, 2014.</font></p>
+
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Yu Li 
+received Micron Excellent Graduate Scholarship </font>
+<font size="4" face="楷体_GB2312"><b>(美光优秀研究生奖学金)</b></font><font face="Times New Roman" size="4">, 
+2013. </font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Bai Li received 
+the Graduate National Scholarship</font><font size="4" face="楷体_GB2312"><b> 
+(研究生国家奖学金),</b></font><font face="Times New Roman" size="4"> 2013.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Tao Lv and 
+Yuhua Guo were recommended and became Ph.D students in <a href="http://www.vcu.edu/">
+Virginia Commonwealth University</a>, 2012, 2013.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Dazhang Huang and Qian Zhao received 
+the Graduate National Scholarship</font><font size="4" face="楷体_GB2312"><b> 
+(研究生国家奖学金),</b></font><font face="Times New Roman" size="4"> 2012.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">
+<a href="http://wxia.hustbackup.cn/">Wen Xia</a> was 
+recommended and became an intern in
+<a href="http://www.nec-labs.com/research/robust/robust_grid-website/index.php">
+NEC Laboratories America, Inc. (NEC Labs)</a>, 2012.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">Guodong Li 
+received the Award of Excellent Master Thesis in Hubei Province </font>
+<font size="4" face="楷体_GB2312"><b>(湖北省优秀硕士学位论文)</b>,</font><font face="Times New Roman" size="4"> 
+2010</font></p>
+
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em">　</p>
+<p><b><font face="Times New Roman" size="5">Personal</font></b></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4">I received 
+the 3rd Prize in Hong Kong International Dragon Boat Races, 2006.</font></p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em">　</p>
+<p style="margin-bottom: 0em">　</p>
+
+</body>
+
+</html>

@@ -1,0 +1,312 @@
+﻿<html>
+
+<head>
+<meta http-equiv="Content-Language" content="zh-cn">
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>Correlation-aware Semantic Stora</title>
+</head>
+
+<body>
+
+<p align="center"><b><font face="Times New Roman" size="6">Semi-hierarchical 
+Semantic-aware Storage</font></b></p>
+<p>　</p>
+<p><font face="Times New Roman" size="5"><font color="#0000FF"><b>Overview Slide</b></font>:
+</font></p>
+<p><font face="Times New Roman" size="4">Download PDF: </font></p>
+<p><font face="Times New Roman" size="4">
+<a href="http://stlab.wnlo.hust.edu.cn/csyhua/semantic-e.pdf">In English</a></font></p>
+<p><font face="Times New Roman" size="4">
+<a href="http://stlab.wnlo.hust.edu.cn/csyhua/semantic-c.pdf">In Chinese</a></font></p>
+<p>　</p>
+<p><b><font face="Times New Roman" size="5" color="#0000FF">Namespace:</font></b></p>
+<p>
+<b style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: 16pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px">
+[TPDS]<span class="Apple-converted-space">&nbsp;</span></b><span style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: 16pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none">Yu 
+Hua, Hong Jiang, Yifeng Zhu, Dan Feng, Lei Xu, &quot;</span><a style="font-family: Times New Roman; font-size: 16pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px" href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-sane2013.pdf">SANE: 
+Semantic-Aware Namespace in Ultra-large-scale File Systems</a><span style="color: rgb(0, 0, 0); font-family: Times New Roman; font-size: 16pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: justify; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; display: inline !important; float: none">&quot;, 
+IEEE Transactions on Parallel and Distributed Systems (TPDS), Vol.25, No.5, May 
+2014, pages:1328-1338.</span></p>
+<p><font face="Times New Roman" size="4">The explosive growth in data volume and 
+complexity imposes great challenges for file systems. To address these 
+challenges, an innovative namespace management scheme is in desperate need to 
+provide both the ease and efficiency of data access. In almost all today’s file 
+systems, the namespace management is based on hierarchical directory trees. This 
+tree-based namespace scheme is prone to severe performance bottlenecks and often 
+fails to provide real-time response to complex data lookups. This paper proposes 
+a Semantic-Aware Namespace scheme, called SANE, which provides dynamic and 
+adaptive namespace management for ultra-large storage systems with billions of 
+files. SANE introduces a new naming methodology based on the notion of 
+semantic-aware per-file namespace, which exploits semantic correlations among 
+files, to dynamically aggregate correlated files into small, flat but readily 
+manageable groups to achieve fast and accurate lookups. SANE is implemented as a 
+middleware in conventional file systems and works orthogonally with hierarchical 
+directory trees. The semantic correlations and file groups identified in SANE 
+can also be used to facilitate file prefetching and data de-duplication, among 
+other system-level optimizations.</font></p>
+<p>　</p>
+<p><b><font face="Times New Roman" size="5" color="#0000FF">Data Grouping:</font></b></p>
+<p><font face="Times New Roman" style="font-size: 16pt"><b>[SC]<span class="Apple-converted-space">&nbsp;</span></b>Yu</font><span style="font-family: Times New Roman; font-size: 16pt; text-align: justify; display: inline; float: none"> 
+Hua, Hong Jia</span><font face="Times New Roman" style="font-size: 16pt">ng</font><font face="Times New Roman" style="font-size: 16pt">, 
+Dan Feng, &quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-SC2014.pdf">FAST: 
+Near Real-time Searchable Data Analytics for the Cloud</a>&quot;, Proceedings of the 
+International Conference for High Performance Computing, Networking, Storage and 
+Analysis (SC), November 2014, Pages: 754-765. (Acceptance rate: 82/394=20.8%)<br class="Apple-interchange-newline">
+　</font></p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4">With the explosive growth in data volume 
+and complexity and the increasing need for highly efficient searchable data 
+analytics, existing cloud storage systems have largely failed to offer an 
+adequate capability for real-time data analytics. Since the true value or worth 
+of data heavily depends on how efficiently data analytics can be carried out on 
+the data in (near-) real-time, large fractions of data end up with their values 
+being lost or significantly reduced due to the data staleness. To address this 
+problem, we propose a near-real-time and cost-effective searchable data 
+analytics methodology, called FAST. The idea behind FAST is to explore and 
+exploit the semantic correlation within and among datasets via correlation-aware 
+hashing and manageable flat-structured addressing to significantly reduce the 
+processing latency, while incurring acceptably small loss of data-search 
+accuracy. The near-real-time property of FAST enables rapid identification of 
+correlated files and the significant narrowing of the scope of data to be 
+processed. FAST supports several types of data analytics, which can be 
+implemented in existing searchable storage systems. We conduct a real-world use 
+case in which children reported missing in an extremely crowded environment 
+(e.g., a highly popular scenic spot on a peak tourist day) are identified in a 
+timely fashion by analyzing 60 million images using FAST.</font></p>
+<p>　</p>
+<p align="justify" style="font-size: 16pt; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman"><b>[USENIX ATC]<span class="Apple-converted-space">&nbsp;</span></b>Min 
+Fu, Dan Feng, Yu Hua, Xubin He, Zuoning Chen, Wen Xia, Fangting Huang, Qing Liu, 
+&quot;<a href="https://www.usenix.org/system/files/conference/atc14/atc14-paper-fu_min.pdf">Accelerating 
+Restore and Garbage Collection in Deduplication-based Backup Systems via 
+Exploiting Historical Information</a>&quot;, Proceedings of USENIX Annual Technical 
+Conference (USENIX ATC), June 2014, pages: 181-192. (Acceptance rate: 
+36/241=14.9%).</font></p>
+<font face="Times New Roman" size="4"><br class="Apple-interchange-newline">
+In deduplication-based backup systems, the chunks of each backup are physically 
+scattered after deduplication, which causes a challenging fragmentation problem. 
+The fragmentation decreases restore performance, and results in invalid chunks 
+becoming physically scattered in different containers after users delete 
+backups. Existing solutions attempt to rewrite duplicate but fragmented chunks 
+to improve the restore performance, and reclaim invalid chunks by identifying 
+and merging valid but fragmented chunks into new containers. However, they 
+cannot accurately identify fragmented chunks due to their limited rewrite 
+buffer. Moreover, the identification of valid chunks is cumbersome and the 
+merging operation is the most time-consuming phase in garbage collection. Our 
+key observation that fragmented chunks remain fragmented in subsequent backups 
+motivates us to propose a History-Aware Rewriting algorithm (HAR). HAR exploits 
+historical information of backup systems to more accurately identify and rewrite 
+fragmented chunks. Since the valid chunks are aggregated in compact containers 
+by HAR, the merging operation is no longer required. To reduce the metadata 
+overhead of the garbage collection, we further propose a Container-Marker 
+Algorithm (CMA) to identify valid containers instead of valid chunks.</font><p>　</p>
+<p align="justify" style="font-size: 16pt; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman"><b>[USENIX ATC]</b><span class="Apple-converted-space">&nbsp;</span>Wen 
+Xia, Hong Jiang, Dan Feng, Yu Hua, “<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-silo2011.pdf">SiLo: 
+A Similarity-Locality based Near-Exact Deduplication Scheme with Low RAM 
+Overhead and High Throughput,</a>”&nbsp; Proceedings of USENIX Annual Technical 
+Conference (USENIX ATC), June 2011. (Acceptance rate: 15%)</font></p>
+<font face="Times New Roman" size="4">Data Deduplication is becoming 
+increasingly popular in storage systems as a space-efficient approach to data 
+backup and archiving. Most existing state-of-the-art deduplication methods are 
+either locality based or similarity based, which, according to our analysis, do 
+not work adequately in many situations. While the former produces poor 
+deduplication throughput when there is little or no locality in datasets, the 
+latter can fail to identify and thus remove significant amounts of redundant 
+data when there is a lack of similarity among files. In this paper, we present 
+SiLo, a near-exact deduplication system that effectively and complementarily 
+exploits similarity and locality to achieve high duplicate elimination and 
+throughput at extremely low RAM overheads. The main idea behind SiLo is to 
+expose and exploit more similarity by grouping strongly correlated small files 
+into a segment and segmenting large files, and to leverage locality in the 
+backup stream by grouping contiguous segments into blocks to capture similar and 
+duplicate data missed by the probabilistic similarity detection. By judiciously 
+enhancing similarity through the exploitation of locality and vice versa, the 
+SiLo approach is able to significantly reduce RAM usage for index lookup and 
+maintain a very high deduplication throughput.<br class="Apple-interchange-newline">
+　</font><p><b><font face="Times New Roman" size="5" color="#0000FF">Hashing 
+Computation:</font></b></p>
+<p align="justify" style="font-size: 16pt; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman"><b>[USENIX ATC]<span class="Apple-converted-space">&nbsp;</span></b>Yuanyuan 
+Sun, Yu Hua, Song Jiang, Qiuyu Li, Shunde Cao, Pengfei Zuo, &quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-atc2017.pdf">SmartCuckoo: 
+A Fast and Cost-Efficient Hashing Index Scheme for Cloud Storage Systems</a>&quot;, 
+Proceedings of USENIX Annual Technical Conference (USENIX ATC), July 2017, 
+pages: 553-566. (Acceptance rate: 60/283=21%)<span class="Apple-converted-space">&nbsp;</span></font></p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" size="4"><br class="Apple-interchange-newline">
+Fast query services are important to improve overall performance of large-scale 
+storage systems when handling a large number of files. Open-addressing cuckoo 
+hash schemes have been widely used to support query services due to the salient 
+features of simplicity and ease of use. Conventional schemes are unfortunately 
+inadequate to address the potential problem of having endless loops during item 
+insertion, which degrades the query performance. To address the problem, we 
+propose a cost efficient cuckoo hashing scheme, named SmartCuckoo. The idea 
+behind SmartCuckoo is to represent the hashing relationship as a directed 
+pseudoforest and use it to track item placements for accurately predetermining 
+the occurrence of endless loop. SmartCuckoo can efficiently predetermine 
+insertion failures without paying a high cost of carrying out step-by-step 
+probing. We have implemented SmartCuckoo in a large-scale cloud storage system. 
+Extensive evaluations using three real world traces and the YCSB benchmark 
+demonstrate the efficiency and efficacy of SmartCuckoo. We have released the 
+source code of SmartCuckoo for public use.</font></p>
+<p>　</p>
+<p align="justify" style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 1em; padding: 0px">
+<font face="Times New Roman" style="font-size: 16pt"><b>[SoCC]</b><span class="Apple-converted-space">&nbsp;</span>Yuanyuan 
+Sun, Yu Hua, Xue Liu, Shunde Cao, Pengfei Zuo, &quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-socc17.pdf">DLSH: 
+A Distribution-aware LSH Scheme for Approximate Nearest Neighbor Query in Cloud 
+Computing</a>&quot;, Proceedings of ACM Symposium on Cloud Computing (SoCC), 2017, 
+pages: 242-255.<span class="Apple-converted-space">&nbsp;</span></font><span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; border-spacing: 0px; -webkit-text-decorations-in-effect: none; text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: 16pt"><font face="Times New Roman">(Acceptance 
+rate: 48/203=23.6%)</font></span><font face="Times New Roman" style="font-size: 16pt">.</font></p>
+<p><font face="Times New Roman" size="4">Cloud computing needs to process and 
+analyze massive high dimensional data in a real-time manner. Approximate queries 
+in cloud computing systems can provide timely queried results with acceptable 
+accuracy, thus alleviating the consumption of a large amount of resources. 
+Locality Sensitive Hashing (LSH) is able to maintain the data locality and 
+support approximate queries. However, due to randomly choosing hash functions, 
+LSH has to use too many functions to guarantee the query accuracy. The extra 
+computation and storage overheads exacerbate the real performance of LSH. In 
+order to reduce the overheads and deliver high performance, we propose a 
+distribution-aware scheme, called DLSH, to offer cost-effective approximate 
+nearest neighbor query service for cloud computing. The idea of DLSH is to 
+leverage the principal components of the data distribution as the projection 
+vectors of hash functions in LSH, further quantify the weight of each hash 
+function and adjust the interval value in each hash table. We then refine the 
+queried result set based on the hit frequency to significantly decrease the time 
+overhead of distance computation. Extensive experiments in a large-scale cloud 
+computing testbed demonstrate significant improvements in terms of multiple 
+system performance metrics. We have released the source code of DLSH for public 
+use.<br class="Apple-interchange-newline">
+　</font></p>
+<p align="justify" style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px">
+<b><font face="Times New Roman" style="font-size: 16pt">[INFOCOM]<span class="Apple-converted-space">&nbsp;</span></font></b><font face="Times New Roman" style="font-size: 16pt">Yu 
+Hua, Wenbo He, &nbsp;Xue Liu, Dan Feng, &quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-INFOCOM2015.pdf">SmartEye: 
+Real-time and Efficient Cloud Image Sharing for Disaster Environments</a>&quot;, 
+Proceedings of the 34th IEEE International Conference on&nbsp; Computer 
+Communications (INFOCOM), 2015, pages: 1616-1624. (Acceptance rate: 
+316/1640=19%)<span class="Apple-converted-space">.</span></font></p>
+<p align="justify" style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px">
+<span class="Apple-converted-space"><font face="Times New Roman" size="4">Rapid 
+disaster relief is important to save human lives and reduce property loss. With 
+the wide use of smartphones and their ubiquitous easy access to the Internet, 
+sharing and uploading images to the cloud via smartphones offer a nontrivial 
+opportunity to provide information of disaster zones. However, due to limited 
+available bandwidth and energy, smartphone based crowdsourcing fails to support 
+the real-time data analytics. The key to efficiently and timely share and 
+analyze the images is to determine the value/worth of the images based on their 
+significance and redundancy, and only upload those valuable and unique images. 
+In this paper, we propose a near-realtime and cost-efficient scheme, called 
+SmartEye, in the cloudassisted disaster environment. The idea behind SmartEye is 
+to implement QoS-aware in-network deduplication over DiffServ in the 
+software-defined networks (SDN). Due to the ease of use, simplicity and 
+scalability, DiffServ supports the in-network deduplication to meet the needs of 
+differentiated QoS. SmartEye aggregates the flows with similar features via a 
+semantic hashing, and provides communication services for the aggregated, not a 
+single, flow. To achieve these goals, we leverage two main optimization schemes, 
+including semantic hashing and space efficient filters. Efficient image sharing 
+is helpful to disaster detection and scene recognition. To demonstrate the 
+feasibility of SmartEye, we conduct two real-world case studies in which the 
+loss in Typhoon Haiyan (2013) and Hurricane Sandy (2012) can be identified in a 
+timely fashion by analyzing massive data consisting of more than 22 million 
+images using our SmartEye system. Extensive experimental results illustrate that 
+SmartEye is efficient and effective to achieve real-time analytics in disasters</font></span><font face="Times New Roman" size="4"><span class="Apple-converted-space">.</span></font></p>
+<p align="justify" style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px">　</p>
+<p align="justify" style="color: rgb(0, 0, 0); font-family: Simsun; font-size: medium; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px">
+<b><font face="Times New Roman" style="font-size: 16pt">[INFOCOM]<span class="Apple-converted-space">&nbsp;</span></font></b><font face="Times New Roman" style="font-size: 16pt">Yu 
+Hua, Bin Xiao, Xue Liu, &quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-infocom2013.pdf">NEST: 
+Locality-aware Approximate Query Service for Cloud Computing</a>&quot;, Proceedings 
+of the 32nd IEEE International Conference on&nbsp; Computer Communications (INFOCOM), 
+April 2013, pages: 1327-1335. (Acceptance rate: 17%)</font></p>
+<p align="justify" style="color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px">
+<font face="Times New Roman" size="4">Cloud computing applications face the 
+challenges of dealing with a huge volume of data that needs the support of fast 
+approximate queries to enhance system scalability and improve quality of 
+service, especially when users are not aware of exact query inputs. 
+Locality-Sensitive Hashing (LSH) can support the approximate queries that 
+unfortunately suffer from imbalanced load and space inefficiency among 
+distributed data servers, which severely limits the query accuracy and incurs 
+long query latency between users and cloud servers. In this paper, we propose a 
+novel scheme, called NEST, which offers ease-of-use and cost-effective 
+approximate query service for cloud computing. The novelty of NEST is to 
+leverage cuckoo-driven locality-sensitive hashing to find similar items that are 
+further placed closely to obtain load balancing buckets in hash tables. NEST 
+hence carries out flat and manageable addressing in adjacent buckets, and 
+obtains constant scale query complexity even in the worst case. The benefits of 
+NEST include the increments of space utilization and fast query response. 
+Theoretical analysis and extensive experiments in a large-scale cloud testbed 
+demonstrate the salient properties of NEST to meet the needs of approximate 
+query service in cloud computing environments.</font><font face="Times New Roman" size="5"><br class="Apple-interchange-newline">
+　</font></p>
+<p><b><font face="Times New Roman" size="5" color="#0000FF">Online Services:</font></b></p>
+<span class="Apple-style-span" style="color: rgb(0, 0, 0); font-family: Simsun; font-size: 16pt; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; font-weight: normal; letter-spacing: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; border-collapse: separate; line-height: normal; border-spacing: 0px; -webkit-text-decorations-in-effect: none; text-size-adjust: auto">
+<p align="justify"><font face="Times New Roman"><b>[TC]<span class="Apple-converted-space">&nbsp;</span></b>Yu 
+Hua, Xue Liu, Hong Jiang, &quot;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-antelope2013.pdf">ANTELOPE: 
+A Semantic-aware Data Cube Scheme for Cloud Data Center Networks</a>&quot;, IEEE 
+Transactions on Computers (TC), Vol.63, No.9, September 2014, pages: 2146-2159.</font></p>
+</span>
+<p><font face="Times New Roman" size="4">Today’s cloud data centers contain more 
+than millions of servers and offer high bandwidth. A fundamental problem is how 
+to significantly improve the large-scale system’s scalability to interconnect a 
+large number of servers and meanwhile support various online services in cloud 
+computing. One way is to deal with the challenge of potential mismatching 
+between the network architecture and the data placement. To address this 
+challenge, we present ANTELOPE, a scalable distributed data-centric scheme in 
+cloud data centers, in which we systematically take into account both the 
+property of network architecture and the optimization of data placement. The 
+basic idea behind ANTELOPE is to leverage precomputation based data cube to 
+support online cloud services. Since the construction of data cube suffers from 
+the high costs of full materialization, we use a semantic-aware partial 
+materialization solution to significantly reduce the operation and space 
+overheads</font></p>
+<p>　</p>
+<p style="font-size: 1.2em; font-weight: normal; margin: 0px 0px 1em; padding: 0px; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px;">
+<b><font size="5" face="Times New Roman">Open-source Software</font></b></p>
+<p style="font-weight: 700; padding: 0px; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left:0px; margin-right:0px; margin-top:0px; margin-bottom:0em">
+<font face="Times New Roman" size="4">
+<a href="https://github.com/syy804123097/DLSH">DLSH</a><span style="font-weight: 400">: 
+A Distribution-aware LSH Scheme for Approximate Nearest Neighbor Query in Cloud 
+Computing in <a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-socc17.pdf">ACM 
+SoCC 2017 paper</a>.</span></font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/courageJ/SMR">SMR</a></b>:<b> </b>Submodular 
+Maximization Rewriting Algorithm in Deduplication-based Backup Systems in
+<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-MSST2017-dedup.pdf">MSST 2017 
+paper</a>.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/syy804123097/SmartCuckoo">SmartCuckoo</a></b>: in 
+GitHub. SmartCuckoo is a new cuckoo hashing scheme to support metadata query service 
+in <a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-atc2017.pdf">USENIX ATC 2017 
+paper</a>.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/Pfzuo/SmartSA">SmartSA</a> </b>(also called BEES)<b>:</b> in GitHub to support 
+near-deduplication for image sharing based on the energy 
+availability in Smartphone in
+<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-ICDCS2017.pdf">ICDCS 2017 paper</a>.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/syy804123097/Real-time-Share">Real-time-Share</a></b>: in 
+GitHub, to support real-time image sharing in the cloud, which is an important 
+component of
+SmartEye in <a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-INFOCOM2015.pdf">INFOCOM 2015 
+paper</a>.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/syy804123097/MinCounter">MinCounter</a></b>: in 
+GitHub. MinCounter is the proposed data structure in the
+<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-MSST2015.pdf">MSST 2015 Paper</a>.</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/syy804123097/NEST">NEST</a></b>: 
+in GitHub&nbsp;(Download&nbsp;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-infocom2013.pdf">INFOCOM 
+2013 
+Paper</a>,
+<a href="http://stlab.wnlo.hust.edu.cn/csyhua/nestcode.zip">Source Codes</a>,&nbsp;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/nestmanual.pdf">Manual</a>&nbsp;and&nbsp;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/TraceData.pdf">TraceData</a>).</font></p>
+<p style="margin-bottom: 0em"><font face="Times New Roman" size="4"><b>
+<a href="https://github.com/syy804123097/LSBF">LSBF</a></b> 
+(Locality-Sensitive Bloom Filter): 
+in GitHub (Download <a href="http://stlab.wnlo.hust.edu.cn/csyhua/hua-tc2012.pdf">
+TC 2012 Paper</a>,
+<a href="http://stlab.wnlo.hust.edu.cn/csyhua/lsbfcode.zip">Source Codes</a>&nbsp;and&nbsp;<a href="http://stlab.wnlo.hust.edu.cn/csyhua/lsbfmanual.pdf">Manual</a>).</font></p>
+
+<p style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0em; padding: 0px">　</p>
+<p style="font-size: 1.2em; font-weight: normal; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant-ligatures: normal; font-variant-caps: normal; letter-spacing: normal; orphans: 2; text-align: start; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-text-stroke-width: 0px; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0em; padding: 0px">　</p>
+
+</body>
+
+</html>
