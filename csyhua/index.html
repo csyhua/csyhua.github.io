@@ -1,0 +1,940 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Yu Hua</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="https://cdn.bootcss.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
+    <!-- <link href="../../assets/css/ie10-viewport-bug-workaround.css" rel="stylesheet"> -->
+
+    <!-- Custom styles for this template -->
+    <!-- <link href="sticky-footer.css" rel="stylesheet"> -->
+
+    <!-- Just for debugging purposes. Don't actually copy these 2 lines! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+    <!-- <script src="../../assets/js/ie-emulation-modes-warning.js"></script> -->
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+      <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+    <style type="text/css">
+       .anchor-list-item {
+        border-bottom: 1px solid #9a9a9a;
+       }
+    </style>
+  </head>
+
+  <body>
+
+    <!-- Begin page content -->
+    <div class="container">
+	    <div class="row">
+        <div class="col-md-10">
+          <br><br><br>
+          <div class="row">
+            <div class="col-md-4">
+               <!-- <img border="0" src="hua.jpg" width="323" height="310"> -->
+               <img border="0" src="hua.jpg" width="100%">
+            </div>
+            <div class="col-md-8">
+             <!-- <p>Professor</p>
+             <p><a href="http://cs.hust.edu.cn/">School of Computer Science and Technology</a><br>
+             <a href="http://www.wnlo.cn/">Wuhan National Laboratory for Optoelectronics</a><br>
+             <a href="http://www.hust.edu.cn/">Huazhong University of Science and Technology</a><br>
+             Wuhan, China<br>
+             E-mail: csyhua@hust.edu.cn <br> csyhua@gmail.com</p>
+             <p>Dr.Yu Hua 
+            was Postdoc Research Associate in <a href="http://www.mcgill.ca/">McGill 
+            University</a>  
+            in 2009 and Postdoc Research Fellow in
+            <a href="http://www.unl.edu/">University of Nebraska-Lincoln</a> 
+            in 2010-2011. He was Research Assistant in The Hong Kong Polytechnic University 
+            in 2006, and Intern Student in Bell Labs Research China in 2003. He obtained his B.E and Ph.D degrees from Wuhan University, respectively in 2001 
+            and 2005. His research interests include file 
+            systems, cloud storage systems, non-volatile memory, big data analytics, etc. His papers have been published in major conferences and journals, including USENIX FAST, USENIX ATC, 
+            ACM SoCC, 
+            SC, HPDC, ICDCS, MSST. He serves for multiple international conferences, including ASPLOS, SOSP, USENIX ATC, EuroSys, RTSS, ICDCS, IPDPS, MSST, DATE. He 
+            is the senior member 
+            of <a href="http://www.acm.org/">
+            ACM</a>, <a href="http://www.ieee.org/index.html">IEEE</a> and <a href="http://www.ccf.org.cn/sites/ccf/">CCF</a>,
+            and the member of <a href="https://www.usenix.org/">USENIX</a>. He has been appointed as the Distinguished Speaker of 
+            <a href="http://dsp.acm.org/index.cfm">ACM</a> and 
+            <a href="http://www.ccf.org.cn/sites/ccf/">CCF</a>. He releases multiple source codes in <a href="https://github.com">GitHub</a> 
+            for public use.
+             </p> -->
+             <span><font  size="7"><b>Yu Hua</b></font></span>
+             <!-- <span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium">
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+<font  size="3">Professor<br>
+<a href="http://cs.hust.edu.cn/">School of Computer Science and Technology</a><br>
+<a href="http://www.wnlo.cn/">Wuhan National Laboratory for Optoelectronics</a><br>
+<a href="http://www.hust.edu.cn/">Huazhong University of Science and Technology</a><br>
+Wuhan, China</font></p>
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+<font  size="3">E-mail: csyhua@hust.edu.cn</font></p>
+<p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.5em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; ">
+<font  size="3">csyhua@gmail.com<br>
+　</font></p>
+</span> -->
+             <p><font size="3">Professor <br>
+              <a href="http://cs.hust.edu.cn/">School of Computer Science and Technology</a><br>
+             <a href="http://www.wnlo.cn/">Wuhan National Laboratory for Optoelectronics</a><br>
+             <a href="http://www.hust.edu.cn/">Huazhong University of Science and Technology</a><br>
+             Wuhan, China<br>
+             E-mail: csyhua@hust.edu.cn <br> csyhua@gmail.com</font></p>
+<span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-style: normal; font-variant: normal; font-weight: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium; ">
+            </div>  
+          </div> <br>
+
+                      <p align="justify" style="margin-bottom: 0.5em"><font size="3">Dr.Yu Hua 
+was Postdoc Research Associate in <a href="http://www.mcgill.ca/">McGill 
+University</a>  
+in 2009 and Postdoc Research Fellow in
+<a href="http://www.unl.edu/">University of Nebraska-Lincoln</a> 
+in 2010-2011. He was Research Assistant in The Hong Kong Polytechnic University 
+in 2006, and Intern Student in Bell Labs Research China in 2003. He obtained his B.E and Ph.D degrees from Wuhan University, respectively in 2001 
+and 2005. His research interests include file 
+systems, cloud storage systems, non-volatile memory, big data analytics, etc. His papers have been published in major conferences and journals, including USENIX FAST, USENIX ATC, 
+ACM SoCC, 
+SC, HPDC, ICDCS, MSST. He serves for multiple international conferences, including ASPLOS, SOSP, USENIX ATC, EuroSys, RTSS, ICDCS, IPDPS, MSST, DATE. He 
+is the senior member 
+of <a href="http://www.acm.org/">
+ACM</a>, <a href="http://www.ieee.org/index.html">IEEE</a> and <a href="http://www.ccf.org.cn/sites/ccf/">CCF</a>,
+and the member of <a href="https://www.usenix.org/">USENIX</a>. He has been appointed as the Distinguished Speaker of 
+<a href="http://dsp.acm.org/index.cfm">ACM</a> and 
+<a href="http://www.ccf.org.cn/sites/ccf/">CCF</a>. He releases multiple source codes in <a href="https://github.com">GitHub</a> 
+for public use.</font></p> 
+          <hr>
+          <div class="entry">
+            <p><font size="3">
+              <b>Call for Participants: </b>
+              <a href="./cncc2017storage.htm">Intelligent 
+              Storage Systems and Applications</a> in <a href="http://cncc.ccf.org.cn/">CCF CNCC (China National 
+              Computer Congress)</a>, on October 26, 2017. <br>
+              <b>Call for Participants:</b>
+              <a href="./storage.htm">New Storage Devices 
+              for In-memory Computing</a> in
+              <a href="http://hpcchina2017.csp.escience.cn/dct/page/1">CCF HPC China</a>, on 
+              October 21, 2017.
+            </font>
+            </p>
+          </div>
+
+          <div class="entry">
+            <div id="news" class="page-header">
+              <h2>News</h2>
+            </div>
+            <ul>
+              <li style="list-style-position: outside; list-style-type: square; ">
+              <p style="margin-bottom: 0.5em" align="justify">
+              <font  size="3">
+              <a href="./semantic.htm">Semi-hierarchical 
+              Semantic-aware Storage</a> is online.</font></p></li>
+              <li style="list-style-position: outside; list-style-type: square; ">
+              <p style="margin-bottom: 0.5em" align="justify">
+              <font  size="3">Pengfei, Yuanyuan and Jie received 
+              National Scholarship for Graduate Students, September 2017. Congratulations.</font></p></li>
+              <li style="list-style-position: outside; list-style-type: square; ">
+              <p style="margin-bottom: 0.5em" align="justify">
+              <font  size="3">Zhangyu is invited to give a talk in 
+              HotDC 2017.</font></p></li>
+              <li style="list-style-position: outside; list-style-type: square; ">
+              <p style="margin-bottom: 0.5em" align="justify">
+              <font  size="3">Welcome our new group members, 
+              Jianming, Qifan, Xiaomeng, Jingnan, and Xuan. </font></p></li>
+              <li style="list-style-position: outside; list-style-type: square; ">
+              <p style="margin-bottom: 0.5em" align="justify">
+              <font  size="3">Pengfei and Yuanyuan are invited to 
+              give a talk in the 23rd National Conference of 
+            Information Storage (NCIS), September 2017.</font></p></li>
+              <li style="list-style-position: outside; list-style-type: square; ">
+              <p style="margin-bottom: 0.5em" align="justify">
+              <font  size="3">Yuanyuan and Xinxin received ACM SOSP 
+              2017 Student Scholarships awarded by Google. Congratulations.</font></p>
+              </li>
+              <li style="list-style-position: outside; list-style-type: square; ">
+              <p style="margin-bottom: 0.5em" align="justify">
+              <font  size="3">Our paper &quot;DLSH: A Distribution-aware 
+              LSH Scheme for Approximate Nearest Neighbor Query in Cloud Computing&quot; is 
+              accepted by ACM SoCC 2017. 
+              Congratulations to Yuanyuan.</font></p></li>
+              <li style="list-style-position: outside; list-style-type: square; ">
+              <p style="margin-bottom: 0.5em" align="justify">
+              <font  size="3">Yuanyuan receives the USENIX ATC 2017 
+              Grants and Jie becomes an intern in Microsoft Search Technology Center, 
+              2017. Congratulations.</font></p></li>
+              <li style="list-style-position: outside; list-style-type: square; ">
+              <p style="margin-bottom: 0.5em" align="justify">
+              <font  size="3">I am appointed as ACM Distinguished 
+              Speaker, 2017.</font></p></li>
+              <li style="list-style-position: outside; list-style-type: square; ">
+              <p style="margin-bottom: 0.5em" align="justify">
+              <font  size="3">Our paper &quot;SmartCuckoo: A Fast and 
+              Cost-Efficient Hashing Index Scheme for Cloud Storage Systems&quot; is accepted 
+              by&nbsp; USENIX ATC 2017. 
+              Congratulations to Yuanyuan.</font></p></li>
+              <li style="list-style-position: outside; list-style-type: square; ">
+              <p style="margin-bottom: 0.5em" align="justify">
+              <font  size="3">I serve as the Program Committee 
+              Member in <a href="https://www.usenix.org/conference/atc18">USENIX ATC 2018</a>, 
+              <a href="https://www.asplos2018.org/">ASPLOS 2018</a> (ERC),
+              <a href="http://icdcs2018.ocg.at/">ICDCS 2018</a>,
+              <a href="https://www.date-conference.com/">DATE 2018</a>, 
+              <a href="https://www.usenix.org/conference/atc17">USENIX ATC 2017</a>,
+              <a href="http://novel.ict.ac.cn/ASPLOS2017/index.html">ASPLOS 2017</a> (ERC),
+              <a href="http://sigops.org/sosp/sosp17/index.html">SOSP 2017</a> (SRC&amp;Poster),
+              <a href="http://eurosys2017.org/">EuroSys 2017</a> (Heavy Shadow), 
+              <a href="http://icdcs2017.gatech.edu/">ICDCS 2017</a>,
+              <a href="http://storageconference.us/">MSST 2017</a>,
+              <a href="http://ipdps.org/">IPDPS 2017</a>, 
+              and Session Chair in 
+              <a href="http://novel.ict.ac.cn/ASPLOS2017/index.html">ASPLOS 2017</a> and 
+              <a href="https://www.usenix.org/conference/atc17">USENIX ATC 2017</a>. 
+              </font></p></li>
+            </ul>
+          </div>
+
+          <!-- <div class="entry">
+            <div id="news" class="page-header">
+              <h2>News</h2>
+            </div>
+          </div> -->
+
+          <div class="entry">
+            <div id="publications" class="page-header">
+              <h2>Selected Publications</h2>
+            </div>
+            <p align="justify"><font  size="3">
+            <b>[USENIX ATC] </b>
+            Yuanyuan Sun, Yu Hua, Song Jiang, Qiuyu Li, Shunde Cao, Pengfei Zuo, &quot;<a href="./hua-atc2017.pdf">SmartCuckoo: 
+            A Fast and Cost-Efficient Hashing Index Scheme for Cloud Storage Systems</a>&quot;,
+            Proceedings of USENIX Annual Technical Conference (USENIX ATC), July 2017, 
+            pages: 553-566. 
+            (Acceptance rate: 60/283=21%).
+            <a href="https://github.com/syy804123097/SmartCuckoo">Source codes</a>, <a href="http://www.wnlo.cn/index.php?id=5671">
+            WNLO News</a></font></p>
+            <p align="justify"><font  size="3"><b>[SoCC]</b> Yuanyuan 
+            Sun, Yu Hua, Xue Liu, Shunde Cao, Pengfei Zuo, &quot;<a href="./hua-socc17.pdf">DLSH: 
+            A Distribution-aware LSH Scheme for Approximate Nearest Neighbor Query in Cloud 
+            Computing</a>&quot;, Proceedings of ACM Symposium on Cloud Computing (SoCC), 2017, 
+            pages: 242-255. </font>
+            <font  size="3">(Acceptance rate: 48/203=23.6%).
+            <a href="https://github.com/syy804123097/DLSH">Source codes</a></font></p>
+            <p align="justify"><font  size="3">
+            <b>[USENIX ATC] </b>
+            Wen Xia, Yukun Zhou, Hong Jiang, Dan Feng, Yu Hua, Yuchong Hu, Yucheng Zhang, 
+            Qing Liu, &quot;<a href="./hua-atc2016.pdf">FastCDC: 
+            a Fast and Efficient Content-Defined Chunking Approach for Data Deduplication</a>&quot;,<b>
+            </b>Proceedings of USENIX Annual Technical Conference (USENIX ATC), June 2016, 
+            pages: 101-114. 
+            (Acceptance rate: 47/248=19%)</font></p>
+            <p align="justify"><font  size="3"><b>[FAST] </b>
+            Min Fu, Dan Feng, Yu 
+            Hua, Xubin He, Zuoning Chen, Wen Xia, Yucheng Zhang, Yujuan Tan, &quot;<a href="./hua-fast2015.pdf">Design Tradeoffs for Data Deduplication 
+            Performance in Backup Workloads</a>&quot;, Proceedings of&nbsp; the 13th USENIX Conference on File and Storage Technologies 
+            (FAST), February 2015, pages:331-344. (Acceptance rate: 28/130=21.5%)</font></p>
+            <p align="justify"><font  size="3">
+            <b>[USENIX ATC] </b>
+            Min Fu, Dan Feng, Yu 
+            Hua, Xubin He, Zuoning Chen, Wen Xia, Fangting 
+            Huang, Qing Liu, &quot;<a href="https://www.usenix.org/system/files/conference/atc14/atc14-paper-fu_min.pdf">Accelerating Restore and Garbage Collection in 
+            Deduplication-based Backup Systems via Exploiting Historical Information</a>&quot;,
+            Proceedings of USENIX Annual Technical Conference (USENIX ATC), 
+            June 2014, pages: 181-192. (Acceptance rate: 36/241=14.9%).</font></p>
+            <p align="justify"><font  size="3"><b>[SC] </b>Yu Hua, Hong Jiang, Dan Feng, &quot;<a href="./hua-SC2014.pdf">FAST: 
+            Near Real-time Searchable Data Analytics for the Cloud</a>&quot;,
+            Proceedings of the 
+            International Conference for High Performance Computing, Networking, Storage and 
+            Analysis (SC), November 2014, Pages: 754-765. (Acceptance rate: 82/394=20.8%)</font></p>
+            <p align="justify"><font  size="3">
+            <b>[USENIX ATC]</b> Wen Xia,  
+            Hong Jiang, 
+            Dan Feng, Yu Hua, “<a href="./hua-silo2011.pdf">SiLo: A Similarity-Locality based Near-Exact Deduplication 
+            Scheme with Low RAM Overhead and High Throughput,</a>”&nbsp; 
+            Proceedings of USENIX Annual Technical Conference (USENIX ATC), 
+            June 2011. (Acceptance rate: 15%)</font></p>
+            <p align="justify"><font  size="3"><b>[SC] </b>Yu Hua, Hong Jiang, 
+            Yifeng Zhu, Dan Feng, Lei Tian, &quot;<a href="./hua-sc09.pdf">SmartStore: A New Metadata Organization Paradigm with 
+            Semantic-Awareness for Next-Generation File Systems</a>&quot;, Proceedings of the 
+            International Conference for High Performance Computing, Networking, Storage and 
+            Analysis (SC), November 2009. (Acceptance rate: 22.6%)</font></p>
+
+            <p style="font-size: 1.2em; font-weight: normal; margin-top: 0px; margin-right: 0px; margin-bottom: 0.1em; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; "><br>
+<b><font  size="5">
+<a href="./fullpaper.htm" style="text-decoration: underline;">Full Paper List ...</a></font></b></p>
+          </div>
+
+
+          <div class="entry">
+            <div id="services" class="page-header">
+              <h2>Recent Professional Services</h2>
+            </div>
+            <p style="margin-bottom: 0em">
+            <b><font  size="3">Reviewer for Funding Agencies:</font></b></p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">National Natural Science Foundation of 
+            China (NSFC)</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Panelist in National Twelfth Five-Year Science and 
+            Technology Plan</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3"><a href="http://www.mitacs.ca/">Mitacs in 
+            Canada</a></font></p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            <b><font  size="3">Academic Member:</font></b></p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Senior Member: ACM, IEEE and CCF</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Member: USENIX, ChinaSys, CCF YOCSEF, CCF Information Storage Technology 
+            Committee, CCF 
+            High-Performance Computing Committee</font><b><font face="楷体_GB2312" size="3">,</font></b><font  size="3"> CCF 
+            Computer Architecture Committee</font><font  size="3">, 
+            CCF Committee on Terminology</font></p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            <b><font  size="3">Associate Editor: </font></b></p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">
+            <a href="http://www.springer.com/computer/journal/11704">Frontiers of Computer Science</a> (FCS, 2014-)</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">
+            <a href="http://www.jcn.or.kr">Journal of Communications and Networks</a> (JCN, 
+            2015-)</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Guest Editor: Special Issue &quot;<a href="http://www.jcn.or.kr/home/journal/call_for_papers.asp?globalmenu=3">Green 
+            Communication</a>&quot; in
+              <a href="http://www.jcn.or.kr/home/journal/">Journal of Communications and 
+              Networks</a>, 2016.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Lead Guest Editor: Special Issue 
+            &quot;<a href="./fcs2016.htm">Software-defined Storage 
+            for Big Data</a>&quot; in 
+            <a href="http://journal.hep.com.cn/fcs/EN/column/item567.shtml">Frontiers of Computer Science</a> 
+            (FCS), 2016. </font></p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            <b><font  size="3">Chair or PC Member for Conferences:</font></b></p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">2018:</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member: USENIX Annual Technical Conference (USENIX ATC), 
+            2018.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">External Review Committee: The 23rd 
+            ACM International Conference on Architectural Support for Programming Languages 
+            and Operating Systems (ASPLOS), 
+            2018.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member:&nbsp; The 
+            38th IEEE International Conference on Distributed Computing Systems (ICDCS), 2018.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member:&nbsp; The 21st 
+            Design Automation and Test in Europe (DATE), 2018.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member:&nbsp; The 18th 
+            IEEE/ACM International Symposium on Cluster, Cloud and Grid Computing (CCGrid), 
+            2018.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member: IEEE 
+            International Conference on Computer Communications (INFOCOM), 2018.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member: ACM/IEEE 
+            International Conference on Cyber-Physical Systems (ICCPS), 2018.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">External Review Committee: The Design 
+            Automation Conference (DAC), 2018</font></p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">2017:</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member: USENIX Annual Technical Conference (USENIX ATC), 
+            2017.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Poster Program Committee Member: 
+            The 26th ACM Symposium on Operating Systems Principles (SOSP), 2017.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">External Review Committee: The 22nd 
+            ACM International Conference on Architectural Support for Programming Languages 
+            and Operating Systems (ASPLOS), 
+            2017.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Student Research Competition Committee: 
+            The 26th ACM Symposium on Operating Systems Principles (SOSP), 2017.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Heavy Shadow Program Committee Member: The 
+            European Conference on Computer Systems (EuroSys), 2017.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member: The 33rd 
+            International Conference on Massive Storage Systems and Technology (MSST), 2017.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member:&nbsp; The 
+            37th IEEE International Conference on Distributed Computing Systems (ICDCS), 2017.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member: The 31st IEEE 
+            International Parallel and Distributed Processing Symposium (IPDPS), 2017.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member: The 
+            International Conference on Languages, Compilers, Tools and Theory for Embedded 
+            Systems (LCTES), 2017.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">External Review Committee: The Design 
+            Automation Conference (DAC), 2017</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Co-chair: The CCF 
+            Advanced Disciplines Lectures &quot;<a href="http://www.ccf.org.cn/c/2017-04-19/594147.shtml">Frontiers 
+            of Storage Systems and Devices</a>&quot;, 2017.</font></p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">General Co-Chair: The 3rd Workshop of 
+            Software-Defined Data Communications and Storage 
+            <a href="./sddcs2017.htm">(SDDCS) 2017</a> with ASPLOS 2017.</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Vice Chair: IEEE NAS(2016, 2014), 
+            SDDCS (<a href="./sddcs2016.htm">2016</a>,
+            <a href="./sddcs2015.htm">2015</a>), IEEE ICPADS(2016)</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Publication/Web Chair: IWQoS (2013), 
+            IEEE NAS(2009) </font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Publicity Chair: ACM/SPEC ICPE (2016), 
+            IEEE NVMSA(2016, 2015)</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Session Chair: ASPLOS (2017), USENIX ATC 
+            (2017), MSST (2017),&nbsp;INFOCOM (2016, 2015, 2014), ICDCS (2016), 
+            ICPP(2015), IWQoS(2015), ChinaSys(2015), RTCSA(2015),
+            <a href="./hpcplus.htm">HPC Plus</a>(2015) 
+            ......</font></p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">Program Committee Member:</font></p>
+            <p style="margin-bottom: 0em">
+            　</p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">MSST: 2016</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">RTSS: 2015</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">ICDCS: 2016, 2015</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">INFOCOM: 2017-2016, 2014</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">ICNP: 2016</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">e-Energy: 2017</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">ICPP: 2017-2015, 
+            2013</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">CCGrid: 2017, 2016, 2014</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">HPC Asia: 
+            2018</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">CloudCom: 
+            2017-2015</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">NVMSA: 
+            2017-2015 </font></p>
+            <p style="margin-bottom: 0em"><font  size="3">ACM SAC: 
+            2018-2015</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">......</font></p>
+            <p style="margin-bottom: 0.2em">　</p>
+            <p><font  size="3"><b>Reviewer:</b>
+            </font></p>
+            <p style="margin-bottom: 0em" align="justify">
+            <font  size="3">IEEE Transactions on Computers (TC),&nbsp; IEEE Transactions on Parallel and Distributed 
+            Systems (TPDS), ACM Transactions on Storage (TOS), IEEE/ACM Transactions on Networking (ToN), 
+            ACM Transactions on Design Automation of Electronic Systems (TODAES), IEEE Transactions on Cloud Computing (TCC), 
+            IEEE Transactions on Industrial Informatics (TII), IEEE Transactions on Big Data 
+            (TBD), ACM Transactions on Cyber-Physical Systems (TCPS), IEEE Journal on Selected Areas in Communications (JSAC), IEEE Transactions on Vehicular Technology 
+            (TVT), IEEE Transactions on Smart Grid (TSG), VLDB Journal, Journal of Parallel and Distributed 
+            Computing (JPDC), Transactions on Large Scale Data and Knowledge Centered Systems (TLDKS), Information Sciences, The Computer Journal, Computer Communications, Journal of Computer Architecture, Parallel and Distributed Computing and Networks, Journal of Supercomputing (Springer), IEEE Communications Letters, Chinese Journal of Computers, 
+            Journal of Internet Technology, Journal of Computer Research and Development, Neural Computing &amp; Applications (Springer), Security and Communication Networks 
+            (Wiley), Future Generation Computer Systems (FGCS), IEEE Systems Journal, Journal of Computer Science and Technology 
+            (JCST), Science China (Information Sciences), Chinese Journal of Electronics (CJE), 
+            Journal of Software (JOS), IEEE Access,&nbsp; ......</font></p>
+            <p style="margin-bottom: 0em">
+            <font  size="3">External Thesis Examiner of&nbsp;The 
+            Chinese University of Hong Kong: 2015, 2014</font></p>
+          </div>
+
+
+          <div class="entry">
+            <div id="talks" class="page-header">
+              <h2>Invited Talk</h2>
+            </div>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Semantic-aware Edge Storage Systems&quot;, University of Massachusetts Boston, 
+            November 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Intelligent 
+            Data Reduction in Massive Storage Systems&quot;, The George Washington University, 
+            November 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Energy-aware Deduplication Systems for Edge Computing&quot;,
+            Argonne National Laboratory, April 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Deduplication-aware Architecture and System for Edge Computing&quot;, University of California, Riverside, March 2017. 
+            See the
+            <a href="http://www.ece.ucr.edu/news-events/article.php?EID=372&Article=Guest-Lecture:-Professor-Yu-Hua-presents-a-talk-on-&quot;Deduplication-aware-Architecture-and-System-for-Edge-Computing&quot;">
+            News</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Deduplication-aware NVM Systems for Edge Computing&quot;, The workshop of EuroSys 2017 PC Member 
+            in Google Zurich, January 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Deduplication-aware Edge Computing&quot;, 
+            Uppsala University, 
+            Sweden, January 2017. See the
+            <a href="http://www.it.uu.se/lesit/seminarium/#2017-01-17 09:05:54">News</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Write 
+            Performance Optimization for PCM: A Synergized View&quot;, Arizona State University, 
+            November 2016.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3"> 
+            &quot;Correlation-aware Hashing for Smarter Storage&quot;,
+            MathWorks Asia Research Summit, Tokyo, 
+            September 2016. </font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Deduplication-aware Ecosystem: A Bottom-up Approach&quot;, University of Central 
+            Florida, March 2016.&nbsp; See
+            <a href="http://www.eecs.ucf.edu/seminar_flyers/23March2016.pdf">the flyer</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Approximate 
+            Storage Methodology: Systems and Architecture&quot;,
+            Oak Ridge National Laboratory, November 
+            2015.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Smart Big 
+            Data Analytics in Large-scale Storage Systems&quot;, The Hong Kong Polytechnic 
+            University, March 2015.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Near Real-time Data Analytics: Observations and Insights&quot;, University of 
+            Colorado at Colorado Springs, November 2014.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Smart Deduplication and Compression in Mobile Clouds&quot;, IEEE/CIC 
+            International Conference on Communications in China (<a href="http://www.ieee-iccc.org/index.html">ICCC</a>), October 2014.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;<a href="./hua-nvmsa2014.pdf">Non-volatile Storage Support for Data Deduplication</a>&quot;, in
+            <a href="http://www.nvmsa.org/2014/general/">NVMSA 2014</a>, in 
+              conjunction with <a href="http://www.cs.cqu.edu.cn:8085/index.html">RTCSA 2014</a>, 
+            August 2014.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Software-defined Deduplication in Networking Systems&quot;, City University of Hong 
+            Kong, May 2014.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Software-defined 
+            Deduplication and Compression in Remote backups&quot;,&nbsp; McGill University, 
+            Montreal, Canada, May 2014.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Design 
+            and Implementation of Network Storage Systems: From Cloud to SDN&quot;, McGill University, Montreal, Canada, November 2013.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Large-scale 
+            Storage Systems&quot;, The Hong Kong Polytechnic University, November 2011.</font></p>
+            <p style="margin-bottom: 0em">　</p>
+            <p style="margin-bottom: 0em">　</p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;From Data 
+            Devices to Intelligent Storage&quot;, Forum &quot;intelligent storage systems&quot; in 
+            <a href="http://cncc.ccf.org.cn/">CCF CNCC 
+            (China National Computer Congress)</a>, October 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Edge-aware 
+            Efficient Data Storage Systems&quot;, Forum &quot;storage systems in data centers&quot; in 
+            <a href="http://cncc.ccf.org.cn/">CCF 
+            CNCC (China National Computer Congress)</a>, October2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Semi-hierarchical 
+            Architecture for Smart Storage Systems&quot;, Keynote Speaker in 
+            <a href="http://118.190.133.23/reports.htm#pos1">the 23rd National Conference of 
+            Information Storage (NCIS)</a>, 
+            September 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Cost-efficient and Reliable Storage System in the Edge&quot;, Guangzhou University, 
+            September 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Cost-efficient Remote Transmission Services in Cloud Storage Systems&quot;, 
+            <a href="http://ceie.swu.edu.cn/viscms/ceieidex/xueyuantongzhi7966/20170825/363494.html">ACM Chongqing Workshop on Smart Sensing and Advanced Computing</a>, August 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Cloud 
+            Storage Hardware Systems for Data Redundancy&quot;,
+              <a href="http://cccc.csu.edu.cn/sy/index.jhtml">The 7th Chinese Conference 
+            on Cloud Computing (CCCC)</a>, Dec. 2016.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;FCoE-based 
+            Large-scale Storage Systems&quot;, Forum &quot;cloud computing 
+            and data center networks&quot; in
+            <a href="http://hpcchina2016.csp.escience.cn/dct/page/1">HPC China</a>, 
+            October 
+            2016.
+              </font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Data 
+            Deduplication Ecosystem and Future Work&quot;, Forum &quot;The 
+            Challenges to New Storage Systems&quot; in <a href="http://cncc.ccf.org.cn/">CCF CNCC (China National 
+            Computer Congress</a></font><a href="http://cncc.ccf.org.cn/"><font  size="3">),</font></a><font  size="3"> 
+            October 
+            2016.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;The 
+            Architecture for Approximate Deduplication in Big Data Storage Systems&quot;, 
+            Excellent Young Scholar Forum in <a href="http://aca2016.tcarch.org/">Advanced 
+            Computer Architecture (ACA</a></font><a href="http://aca2016.tcarch.org/"><font  size="3">)</font></a><font  size="3">, 
+            August 2016.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Searchable Storage Systems&quot;, Chinese Computer Systems Teaching Workshop, June 2016.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Smarter Storage for Big Data Analytics: Architecture and Systems&quot;, 
+            <a href="http://cs.ustc.edu.cn/xwxx/tzgg/201605/t20160510_244794.html">Storage System Forum</a> in 
+            University of Science and Technology of China, May 2016.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Correlation-aware Storage Systems for Big Data&quot;,
+            <a href="http://www.yocsef.org.cn/sites/yocweb/flt_sy.jsp">CCF YOCSEF (Shenyang)</a>, 
+            May 2016. See the
+            <a href="http://www.cse.neu.edu.cn/SinglePageMore.aspx?news_id=579ce9a9-2b98-43d0-ae1c-1595bbf0a097&navigation_id=%u9996%u9875&module=%u5B66%u672F%u6D3B%u52A8">
+            News</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            &quot;Correlation-aware Large-scale Storage Systems&quot;,
+            <a href="http://allstor.org/index.php">Industrial Technology Innovation 
+            Strategic Alliance of Storage</a>, April 2016.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Real-time 
+            Storage Systems for Disaster Management&quot;, 
+            Excellent Young Scholar Forum in 
+            <a href="http://www.nudt.edu.cn/hpcl/ncis2015/index.html">the 21st National Conference of 
+            Information Storage (NCIS</a></font><a href="http://www.nudt.edu.cn/hpcl/ncis2015/index.html"><font  size="3">)</font></a><font  size="3">, 
+            September 2015.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;System and 
+            Architecture of Approximate Data Deduplication in Cloud Storage&quot;, Wuhan 
+            University, May 2015. See the
+            <a href="http://cs.whu.edu.cn/a/xueshujiangzuofabu/2015/0902/121.html">News</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Large-scale 
+            Network Storage Systems&quot;, Jinan University, 
+            November 2014. See the
+            <a href="http://125.218.212.217/index.php?m=content&c=index&a=show&catid=87&id=835">
+            News</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;<a href="./NCIS2014.pdf">Approximate 
+            Data Deduplication in Storage Systems for Big Data</a>&quot;, Excellent Young 
+            Scholar Forum 
+            in the 20th National Conference of Information Storage (<a href="http://acs.ict.ac.cn/ncis2014/">NCIS</a>), 
+            September 2014.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">&quot;Data 
+            Deduplication based Cloud Backup Systems&quot;, The workshop of smart city and cloud 
+            computing by ACM (China) Conference Committee, May 2014.</font></p>
+          </div>
+
+
+          <div class="entry">
+            <div id="projects" class="page-header">
+              <h2>Research Projects</h2>
+            </div>
+            
+            <!-- <p><font size="3"></font></p><br> -->
+            <p><font size="3"><b>PI</b>: "Research on Organization Model and Key Technology of Massive Time-constrained Data in Cloud Storage Systems", National Natural Science Foundation of China (NSFC), No.61772212, 2018-2021.</font></p>
+
+            <p><font size="3"><b>Co-PI</b>: <a href="http://sdc.ict.ac.cn/">"The Principle and Methods of Software-defined Configurable Distributed Storage Systems"</a>, National Key Research and Development Program of China, No.2016YFB1000202, 2016-2021.</font></p>
+
+            <p><font size="3"><b>PI</b>: "Flat Addressing Schemes for In-memory Computing in Massive Storage Systems", <a href="http://www.carch.ac.cn/">State Key Laboratory of Computer Architecture</a>, No.CARCH201505, 2016-2017.</font></p>
+
+            <p><font size="3"><b>PI</b>: <a href="./project11.htm">"Research on Correlation-Aware Organization Model and Key Technology in Hybrid Storage Systems"</a>, National Natural Science Foundation of China (NSFC), No. 61173043, 2012- 2015.</font></p>
+
+            <p><font size="3"><b>PI</b>: <a href="./project07.htm">"Research on Multi-dimensional Metadata Structure and Fast Query Approach in Large-scale Storage System"</a>, National Natural Science Foundation of China (NSFC), No. 60703046, 2008-2010.</font></p>
+
+            <p><font size="3"><b>Key Member</b>: "Basic Research on Data Storage System Theory and Technology for Complex Application Environment", National Basic Research 973 Program of China, 2011-2015.</font></p>
+
+            <p><font size="3"><b>Key Member</b>: "Research on Organization and Key Technologies of Storage Systems on the Next Generation Internet", National Basic Research 973 Program of China, 2005-2009. (Evaluation: Excellence)</font></p>
+
+            <p><font size="3"><b>Key Member</b>: "PB-scale High-performance Massive Storage Systems and Applications", National High Technology Research and Development 863 Program of China, 2009-2010.</font></p>
+
+            <p><font size="3"><b>Key Member</b>: "Information Storage Systems and Technology", the Program for Changjiang Scholars and Innovative Research Team in University, 2008-2010. (Evaluation: Excellence)</font></p>
+
+            <p><font size="3"><b>Postdoc Research Fellow</b>: <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=0937993">"HECURA: A New Semantic-Aware Metadata Organization for Improved File-System Performance and Functionality in High-End Computing"</a>,  National Science Foundation (NSF), 2009-2013.</font></p>
+
+            <p><font size="3"><b>Collaborator</b>: <a href="http://www.nsf.gov/awardsearch/showAward?AWD_ID=1116606">"SANE: Semantic-Aware Namespace in Exascale File Systems"</a>, National Science Foundation (NSF), 2011-2014.</font></p>
+            
+          </div>
+
+          <div class="entry">
+            <div id="software" class="page-header">
+              <h2>Open-source Software</h2>
+            </div>
+            <font  size="3">
+            <a href="https://github.com/syy804123097/DLSH"><b>DLSH</b></a><span style="font-weight: 400">: 
+            A Distribution-aware LSH Scheme for Approximate Nearest Neighbor Query in Cloud 
+            Computing in <a href="./hua-socc17.pdf">ACM 
+            SoCC 2017 paper</a>.</span></font>
+            <p style="margin-bottom: 0em"><font  size="3"><b>
+            <a href="https://github.com/courageJ/SMR">SMR</a></b>:<b> </b>Submodular 
+            Maximization Rewriting Algorithm in Deduplication-based Backup Systems in
+            <a href="./hua-MSST2017-dedup.pdf">MSST 2017 
+            paper</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3"><b>
+            <a href="https://github.com/syy804123097/SmartCuckoo">SmartCuckoo</a></b>: in 
+            GitHub. SmartCuckoo is a new cuckoo hashing scheme to support metadata query service 
+            in <a href="./hua-atc2017.pdf">USENIX ATC 2017 
+            paper</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3"><b>
+            <a href="https://github.com/Pfzuo/SmartSA">SmartSA</a> </b>(also called BEES)<b>:</b> in GitHub to support 
+            near-deduplication for image sharing based on the energy 
+            availability in Smartphone in
+            <a href="./hua-ICDCS2017.pdf">ICDCS 2017 paper</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3"><b>
+            <a href="https://github.com/syy804123097/Real-time-Share">Real-time-Share</a></b>: in 
+            GitHub, to support real-time image sharing in the cloud, which is an important 
+            component of
+            SmartEye in <a href="./hua-INFOCOM2015.pdf">INFOCOM 2015 
+            paper</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3"><b>
+            <a href="https://github.com/syy804123097/MinCounter">MinCounter</a></b>: in 
+            GitHub. MinCounter is the proposed data structure in the
+            <a href="./hua-MSST2015.pdf">MSST 2015 Paper</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3"><b>
+            <a href="https://github.com/syy804123097/NEST">NEST</a></b>: 
+            in GitHub&nbsp;(Download&nbsp;<a href="./hua-infocom2013.pdf">INFOCOM 
+            2013 
+            Paper</a>,
+            <a href="./nestcode.zip">Source Codes</a>,&nbsp;<a href="./nestmanual.pdf">Manual</a>&nbsp;and&nbsp;<a href="./TraceData.pdf">TraceData</a>).</font></p>
+            <p style="margin-bottom: 0em"><font  size="3"><b>
+            <a href="https://github.com/syy804123097/LSBF">LSBF</a></b> 
+            (Locality-Sensitive Bloom Filter): 
+            in GitHub (Download <a href="./hua-tc2012.pdf">
+            TC 2012 Paper</a>,
+            <a href="./lsbfcode.zip">Source Codes</a>&nbsp;and&nbsp;<a href="./lsbfmanual.pdf">Manual</a>).</font></p>
+          </div>
+
+          <div class="entry">
+            <div id="awards" class="page-header">
+              <h2>Awards</h2>
+            </div>
+            <p style="margin-bottom: 0em"><font  size="3">
+            <a href="http://dsp.acm.org/view_lecturer.cfm?lecturer_id=8183">ACM Distinguished Speaker</a>, 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            <a href="http://history.ccf.org.cn/sites/ccf/xhdtnry.jsp?contentId=2964884900555">CCF Distinguished Speaker</a>, 
+            2016 </font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            Best-in-Session Presentation Award in
+            <a href="http://infocom2016.ieee-infocom.org/program/main-technical-program">IEEE INFOCOM 2016</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Outstanding 
+            Contribution Award as Associate Editor in
+            <a href="http://www.springer.com/computer/journal/11704">Frontiers of Computer Science</a> 
+            (FCS), 2016.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Best 
+            Paper Award in Tsinghua Science and Technology (TST), 2015 </font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Outstanding 
+            Reviewer in Journal of Parallel and Distributed Computing (JPDC), 2015.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Advisor Awards
+            for Excellent B.E Thesis in Hubei Province, 
+            2014</font></p>
+            <p style="font-weight: normal; margin-left: 0px; margin-right: 0px; margin-top: 0px; margin-bottom: 0.2em; padding: 0px">
+            <font  size="3">Young Science Dawning Scholar 
+            in Hubei Province</font>
+            <span class="Apple-style-span" style="border-collapse: separate; color: rgb(0, 0, 0); font-family: Simsun; font-variant: normal; letter-spacing: normal; line-height: normal; orphans: 2; text-align: -webkit-auto; text-indent: 0px; text-transform: none; white-space: normal; widows: 2; word-spacing: 0px; -webkit-border-horizontal-spacing: 0px; -webkit-border-vertical-spacing: 0px; -webkit-text-decorations-in-effect: none; -webkit-text-size-adjust: auto; -webkit-text-stroke-width: 0px; font-size: medium"><font  size="3">, 2014.</font></p>
+            </span>
+            <p style="margin-bottom: 0em"><font  size="3">Advisor Awards
+            for Excellent B.E Thesis 
+            in the University, 
+            2014-2015</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Award 
+            for SIGCOMM Poster by
+              <a href="http://www.hkpeihua.com.hk/en/">Hong Kong Pei Hua Education Foundation</a>, 2013</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            <a href="http://www.ccf.org.cn/sites/ccf/xhdtnry.jsp?contentId=2767423969112">Best Demo Award</a></font><a href="http://www.ccf.org.cn/sites/ccf/xhdtnry.jsp?contentId=2767423969112"><font  size="3">
+            </font></a><font  size="3">in CCF CNCC (China National 
+            Computer Congress)</font><font face="楷体_GB2312" size="3">,</font><font  size="3"> 2013</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Award 
+            for Electronics Information Science and Technology (The Second Prize) , Chinese 
+            Institute of Electronics, 2011</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Advisor Award for Excellent Master Thesis in Hubei Province, 
+            2010</font></p>
+          </div>
+
+          <div class="entry">
+            <div id="members" class="page-header">
+              <h2>Members in my Research Group</h2>
+            </div>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">I am 
+            fortunate to work with the smart students. </font></p>
+            <p style="margin-bottom: 0em"><font  size="3">We are 
+            recruiting self-motivated Ph.D and Master students with solid backgrounds in 
+            computer systems and networks. Please feel free to contact with me for details.</font></p>
+            <p style="MARGIN-BOTTOM: 0em">　</p>
+            <p style="MARGIN-BOTTOM: 0em">　</p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3"><b>Ph.D 
+            Students </b></font></p>
+            <p style="MARGIN-BOTTOM: 0em">　</p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2018: 
+            Jianming Huang</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2017: 
+            Zhangyu Chen, Pengfei Li</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2016: Xinxin 
+            Liu</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2014: 
+            <a href="http://pfzuo.github.io/about/#homepage">Pengfei Zuo</a> (ICDCS 17, MSST 17), Yuanyuan Sun (USENIX ATC 17, 
+            SoCC 17, TPDS 17, MSST 15)</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2011: 
+            Min Fu (co-supervised with Prof. Dan Feng)</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2010: Wen Zhou (co-supervised with Prof. Dan Feng)</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2009: Jinjun 
+            Liu, Wen Xia (co-supervised with Prof. Dan Feng)</font></p>
+            <p style="MARGIN-BOTTOM: 0em">　</p>
+            <p style="MARGIN-BOTTOM: 0em"><b><font  size="3">Master Students</font></b></p>
+            <p style="MARGIN-BOTTOM: 0em">　</p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2018: Qifan 
+            Liu, Xiaomeng Li, Jingnan Jia, Xuan Li, </font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2017: Qin 
+            Cao</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2016: Ziyi 
+            Li, Rong Hu</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2015: 
+            Yuncheng Guo, Jie Wu (MSST 17, Microsoft Intern)</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2014: Shunde 
+            Cao, Ling Yang</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2013: Bin 
+            Peng, Linqian Wu, Zhou Feng</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2012: Rongyu 
+            Lai, Zhenhua Nie, Juan Cai, Bai Li</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font  size="3">2011: Dazhang Huang, Yu Li, Qian Zhao</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font size="3" >2010: Jienan 
+            Zeng, Yunsheng Zhu, Shuangning He, Fei Wang</font></p>
+            <p style="MARGIN-BOTTOM: 0em"><font size="3" >2009: 
+            Tianyao Wu, Jia Hu, Tao Lu, Heng Zhao<br>
+            2008: Yuhua Guo, Wen Xia, Yang Li, Mengying Gao<br>
+            2007: Chen Hu, Guodong Li, Jinjun Liu </font></p>
+
+            <p style="margin-bottom: 0em">　</p>
+            <p><b><font size="3" >Undergraduate Intern Students</font></b></p>
+            <p style="margin-bottom: 0em"><font  size="3">2014: Shu 
+            Sun, Mingyao Shen, Yun Luo, Jianming Huang, Qifan Liu</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">2013: 
+            Zhangyu Chen, Pengfei Li, Xiandong Zhao</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">2012: 
+            Zhuoran Song, Yuqiao Han, Jujunfeng Shen , Huarui 
+            Zhang</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">2011: Lang 
+            Liu, Kaihao Li, Yuncheng Guo, Jie Wu</font></p>
+            <p style="margin-bottom: 0em"><font size="3" >2010: Qiuyu 
+            Li, Pengfei Zuo, Yuanyuan Sun</font></p>
+            <p style="margin-bottom: 0em">　</p>
+            <p><font  size="3"><b>Awards of my 
+            Students:</b></font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Yuanyuan Sun 
+            and Xinxin Liu received ACM SOSP 2017 Student Scholarships awarded by Google. </font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Yuanyuan Sun 
+            received ACM SoCC 2017 Student Scholarships.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Yuanyuan Sun 
+            received the USENIX ATC 2017 Grants.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Jie Wu 
+            became an intern in Microsoft Search Technology Center, 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Mingyao Shen is 
+            selected as the outstanding undergraduate student in HUST and exchange student 
+            in <a href="http://www.ucsd.edu/">University of California San Diego</a>, 2017.
+            </font></p>
+            <p style="margin-bottom: 0em">
+              <font  size="3">Jujunfeng Shen received the Master 
+            student offer of <a href="http://www.usc.edu/">University of Southern California</a>, 
+            2016.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Our alumni, 
+            Qiuyu Li (undergraduate intern), received the job offer from <a href="https://www.ocado.com">Ocado, UK</a>.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Qiuyu Li was 
+            recommended and became a Master student in
+            <a href="http://www.ed.ac.uk/home">The University of Edinburgh</a>, 2014.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Tao Lu and 
+            Yuhua Guo were recommended and became Ph.D students in <a href="http://www.vcu.edu/">
+            Virginia Commonwealth University</a>, 2012, 2013.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">
+            <a href="http://wxia.hustbackup.cn/">Wen Xia</a> was 
+            recommended and became an intern in
+            <a href="http://www.nec-labs.com/research/robust/robust_grid-website/index.php">
+            NEC Laboratories America, Inc. (NEC Labs)</a>, 2012.</font></p>
+            <p style="margin-bottom: 0em">　</p>
+            <p style="margin-bottom: 0em">　</p>
+            <p style="margin-bottom: 0em"><font  size="3">Pengfei Zuo, 
+            Yuanyuan Sun and Jie Wu received National Scholarship for Graduate Students, 
+            September 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Pengfei Zuo 
+            and Yuanyuan Sun are invited to give a talk in 
+            <a href="http://118.190.133.23/reports.htm#pos1">the 23rd National Conference of 
+            Information Storage (NCIS)</a>, 
+            September 2017.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Yuanyuan 
+            Sun, Shunde Cao, Ling Yang and Jie Wu received ZhiXing Excellent Graduate Scholarship, 
+            2016.</font></p>
+            <p style="margin-bottom: 0em">
+              <font  size="3">Yuanyuan Sun, Pengfei Zuo and Yuncheng 
+              Guo were selected as Excellent Graduate Students, 
+              2016</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Yuncheng Guo 
+            and Jie Wu received the Awards of Excellent B.E. Thesis in Hubei Province, 
+            2015</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Zhou Feng 
+            and Pengfei Zuo received ZhiXing Excellent Graduate Scholarship</font><font  size="3">, 
+            2015.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Zhenhua Nie, 
+            Rongyu Lai and Linqian Wu are the Outstanding Graduate Students in HUST, 2015.
+            </font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Qiuyu Li and 
+            Pengfei Zuo received the Awards of Excellent B.E. Thesis in Hubei Province, 
+            2014</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Linqian Wu 
+            and Zhou Feng received Micron Excellent Graduate Scholarship</font><font  size="3">, 
+            2014</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Zhenhua Nie and 
+            Rongyu Lai received National Scholarship for Graduate Students</font><font size="3" face="楷体_GB2312"><b>,</b></font><font  size="3"> 2014.</font></p>
+
+            <p style="margin-bottom: 0em"><font  size="3">Yu Li 
+            received Micron Excellent Graduate Scholarship</font><font  size="3">, 
+            2013. </font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Bai Li 
+            received National Scholarship for Graduate Students</font><font size="3" face="楷体_GB2312"><b>,</b></font><font  size="3"> 2013.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Dazhang Huang and Qian 
+            Zhao received National Scholarship for Graduate Students</font><font size="3" face="楷体_GB2312"><b>,</b></font><font  size="3"> 2012.</font></p>
+            <p style="margin-bottom: 0em"><font  size="3">Guodong Li 
+            received the Award of Excellent Master Thesis in Hubei Province</font><font size="3" face="楷体_GB2312">,</font><font  size="3"> 
+            2010</font></p>
+          </div>
+
+          <div class="entry">
+            <div class="page-header">
+              <h2>Personal</h2>
+            </div>
+            <p style="margin-bottom: 0em"><font  size="3">I received 
+the 3rd Prize in Hong Kong International Dragon Boat Races, 2006.</font></p>
+          </div>
+
+
+
+
+        </div>
+        <div class="col-md-2">
+          <nav class="hidden-print hidden-xs hidden-sm affix" style="top: 100px">
+            <ul class="nav">
+                <li class="anchor-list-item"><a href="#news">News</a></li>
+                <li class="anchor-list-item"><a href="#publications">Selected Publications</a></li>
+                <li class="anchor-list-item"><a href="#services">Professional Services</a></li>
+                <li class="anchor-list-item"><a href="#talks">Invited Talk</a></li>
+                <li class="anchor-list-item"><a href="#projects">Research Projects</a></li>
+                <li class="anchor-list-item"><a href="#software">Open-source Software</a></li>
+                <li class="anchor-list-item"><a href="#awards">Awards</a></li>
+                <li class="anchor-list-item"><a href="#members">Group Members</a></li>
+            </ul><br><br>
+          </nav>
+        </div>
+
+       
+      </div>
+    </div>
+    <br><br><br>
+
+  </body>
+</html>
